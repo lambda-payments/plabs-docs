@@ -1,0 +1,10 @@
+mkdocs-material/
+.env/
+build.sh
+docs/CNAME
+*.orig
+.idea/
+.vscode
+.venv
+.obsidian/
+.DS_Store

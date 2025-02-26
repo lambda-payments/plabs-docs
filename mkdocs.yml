@@ -1,0 +1,57 @@
+site_name: PPTNet Documentation
+nav:
+  - Introduction: index.md
+  - Service Status Check: 
+      - State List: servicescodes/statecode.md
+      - DLR: servicescodes/dlr.md
+      - Service Balance Check: servicescodes/balance_check.md
+      - Service LookUp API: servicescodes/lookup.md
+      - Bulk Service Lookup: servicescodes/bulkservice.md
+  - Telecom:
+        - Atom: telecom/atom.md
+  - Data Packs:
+      - Atom DataPacks: datapacks/atom.md
+
+  - Gift Cards: giftcards/giftcards.md
+      
+  - Insurance: insurance/ggi-general-insurance.md
+  
+  - FAQ's: servicescodes/faq.md
+
+
+theme:
+  name: material
+  custom_dir: overrides
+  favicon: "img/favicon.ico"
+  icon:
+    logo: "img/pptnet_logo"
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css
+  - style/custom.css
+  - style/extra.css
+
+docs_dir: content 
+site_dir: docs
+edit_uri: "edit/main/content/"
+copyright: "Copyright &copy; 2025 PPTNet"
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - codehilite
+  - pymdownx.details
+  - pymdownx.superfences
+
+# Uncomment and install any necessary plugins if needed
+# plugins:
+#   - search
+#   - social
