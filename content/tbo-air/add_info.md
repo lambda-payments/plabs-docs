@@ -1,6 +1,6 @@
-## TBO Air Search API
+## TBO Air Add Info API
 
-This search API allows you to search for flights for different journey types: One-Way, Round Trip or Multi-City
+This search API allows you to add passenger information and contact information for selected flight.
 
 ### Request Details
 
