@@ -1,4 +1,4 @@
-site_name: PPTNet Documentation
+site_name: PLabs Documentation
 nav:
   - Introduction: index.md
 
@@ -21,6 +21,8 @@ nav:
 
   - TBO Air:
       - Search: tbo-air/search.md
+      - Book: tbo-air/book.md
+      - AddInfo: tbo-air/add-info.md
 
   - FAQ's: servicescodes/faq.md
 

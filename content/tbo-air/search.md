@@ -15,23 +15,23 @@ Headers: `'Content-Type': 'application/json'`
 
 ```json
 {
-  "reference": "unique_ref_123",
-  "point_of_sale": "IN",
-  "request_origin": "India",
-  "adult_count": 1,
-  "child_count": 1,
-  "infant_count": 0,
-  "journey_type": "O",
-  "segments": [
-    {
-      "origin": "DEL",
-      "destination": "BOM",
-      "preferred_departure_date": "2025-03-10",
-      "preferred_arrival_date": "2025-03-11",
-      "preferred_airlines": ["AI"]
-    }
-  ],
-  "flight_cabin_class": "AC"
+    "token": "top_secret_token",
+    "reference": "351158c0-563c-447b-84c2-35952a58cfab",
+    "journey_type": "O",
+    "point_of_sale": "IN",
+    "request_origin": "India",
+    "segments": [
+        {
+            "origin": "DXB",
+            "destination": "BAH",
+            "preferred_departure_date": "2025-04-29T00:00:00",
+            "preferred_arrival_date": "2025-04-29T00:00:00"
+        }
+    ],
+    "adult_count": 2,
+    "child_count": 0,
+    "infant_count": 0,
+    "flight_cabin_class": "AC"
 }
 ```
 
