@@ -9,8 +9,10 @@
       
       
       
-        <link rel="prev" href="../../tbo-air/issue/">
+        <link rel="prev" href="../../servicescodes/bulkservice/">
       
+      
+        <link rel="next" href="../book/">
       
       
       <link rel="icon" href="../../img/favicon.ico">
@@ -18,7 +20,7 @@
     
     
       
-        <title>FAQ's - Lambda Documentation</title>
+        <title>Search - Lambda Documentation</title>
       
     
     
@@ -69,7 +71,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#frequently-asked-questions" class="md-skip">
+        <a href="#tbo-air-search-api" class="md-skip">
           Skip to content
         </a>
       
@@ -941,7 +943,7 @@ z"/>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              FAQ's
+              Search
             
           </span>
         </div>
@@ -1919,7 +1921,7 @@ z"/>
   
   
     <li class="md-nav__item">
-      <a href="../statecode/" class="md-nav__link">
+      <a href="../../servicescodes/statecode/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1939,7 +1941,7 @@ z"/>
   
   
     <li class="md-nav__item">
-      <a href="../dlr/" class="md-nav__link">
+      <a href="../../servicescodes/dlr/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1959,7 +1961,7 @@ z"/>
   
   
     <li class="md-nav__item">
-      <a href="../balance_check/" class="md-nav__link">
+      <a href="../../servicescodes/balance_check/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1979,7 +1981,7 @@ z"/>
   
   
     <li class="md-nav__item">
-      <a href="../lookup/" class="md-nav__link">
+      <a href="../../servicescodes/lookup/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1999,7 +2001,7 @@ z"/>
   
   
     <li class="md-nav__item">
-      <a href="../bulkservice/" class="md-nav__link">
+      <a href="../../servicescodes/bulkservice/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2024,17 +2026,19 @@ z"/>
       
   
   
+    
+  
   
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
             
@@ -2047,7 +2051,7 @@ z"/>
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             TBO Air
@@ -2058,9 +2062,27 @@ z"/>
                 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../tbo-air/search/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Search
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -2069,6 +2091,119 @@ z"/>
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tbo-air-search-api" class="md-nav__link">
+    TBO Air Search API
+  </a>
+  
+    <nav class="md-nav" aria-label="TBO Air Search API">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#request-details" class="md-nav__link">
+    Request Details
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-payload" class="md-nav__link">
+    Example Payload
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#payload-description" class="md-nav__link">
+    Payload Description
+  </a>
+  
+    <nav class="md-nav" aria-label="Payload Description">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#valid-journey_type-values" class="md-nav__link">
+    Valid journey_type Values
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#structure-of-each-segment-in-segments-array" class="md-nav__link">
+    Structure of Each Segment in segments Array
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flight-cabin-class-choices" class="md-nav__link">
+    Flight Cabin Class Choices
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-error-responses" class="md-nav__link">
+    Example Error Responses
+  </a>
+  
+    <nav class="md-nav" aria-label="Example Error Responses">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#validation-error" class="md-nav__link">
+    Validation Error
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#duplicate-referemce" class="md-nav__link">
+    Duplicate Referemce
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#success-response" class="md-nav__link">
+    Success Response
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -2080,7 +2215,7 @@ z"/>
   
   
     <li class="md-nav__item">
-      <a href="../../tbo-air/book/" class="md-nav__link">
+      <a href="../book/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2100,7 +2235,7 @@ z"/>
   
   
     <li class="md-nav__item">
-      <a href="../../tbo-air/add_info/" class="md-nav__link">
+      <a href="../add_info/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2120,7 +2255,7 @@ z"/>
   
   
     <li class="md-nav__item">
-      <a href="../../tbo-air/issue/" class="md-nav__link">
+      <a href="../issue/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2145,27 +2280,9 @@ z"/>
       
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    FAQ's
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../servicescodes/faq/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2174,58 +2291,6 @@ z"/>
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#frequently-asked-questions" class="md-nav__link">
-    Frequently Asked Questions
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#error-codes" class="md-nav__link">
-    Error Codes
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#error-codes-and-messages" class="md-nav__link">
-    Error Codes and Messages
-  </a>
-  
-    <nav class="md-nav" aria-label="Error Codes and Messages">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#how-the-error-code-and-message-will-be-shown" class="md-nav__link">
-    How the Error Code and Message Will be Shown
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -2255,30 +2320,91 @@ z"/>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#frequently-asked-questions" class="md-nav__link">
-    Frequently Asked Questions
+  <a href="#tbo-air-search-api" class="md-nav__link">
+    TBO Air Search API
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#error-codes" class="md-nav__link">
-    Error Codes
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#error-codes-and-messages" class="md-nav__link">
-    Error Codes and Messages
-  </a>
-  
-    <nav class="md-nav" aria-label="Error Codes and Messages">
+    <nav class="md-nav" aria-label="TBO Air Search API">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#how-the-error-code-and-message-will-be-shown" class="md-nav__link">
-    How the Error Code and Message Will be Shown
+  <a href="#request-details" class="md-nav__link">
+    Request Details
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-payload" class="md-nav__link">
+    Example Payload
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#payload-description" class="md-nav__link">
+    Payload Description
+  </a>
+  
+    <nav class="md-nav" aria-label="Payload Description">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#valid-journey_type-values" class="md-nav__link">
+    Valid journey_type Values
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#structure-of-each-segment-in-segments-array" class="md-nav__link">
+    Structure of Each Segment in segments Array
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flight-cabin-class-choices" class="md-nav__link">
+    Flight Cabin Class Choices
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-error-responses" class="md-nav__link">
+    Example Error Responses
+  </a>
+  
+    <nav class="md-nav" aria-label="Example Error Responses">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#validation-error" class="md-nav__link">
+    Validation Error
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#duplicate-referemce" class="md-nav__link">
+    Duplicate Referemce
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#success-response" class="md-nav__link">
+    Success Response
   </a>
   
 </li>
@@ -2306,128 +2432,367 @@ z"/>
   
 
 
-<h2 id="frequently-asked-questions"><strong>Frequently Asked Questions</strong><a class="headerlink" href="#frequently-asked-questions" title="Permanent link">&para;</a></h2>
-<p><strong>1)What is this token and which token should we use?</strong> <br />
-    It is a unique secret key that you have to pass along with your request that helps us identify the source of the request.It can be generated from the portal that is provided to you. You can generate two types of token. For testing purpose,you need to generate test token; which is prefixed with TEST and looks something like: TEST:askewr0923lkdf0 and for live purpose, generate LIVE token which looks something like : asdkweri023ka89s. </p>
-<p><strong>2) Why am I getting  the response ‘Problem using the service’ ?</strong><br />
-    It is required that you first request our support team for addition of service. Unless a service is added to your account, you won’t be able to use that service despite fulfilling all the requirements of a legitimate request.</p>
-<p><strong>3) Why am I getting ‘token_not_found’ ?</strong><br />
-    It is because the token sent from your end is not consistent with the token you have generated in your portal. Make sure you send the same token that you have generated.</p>
-<p><strong>4) Why am I getting ‘TEST API not available for this service’ ?</strong><br />
-    There are few services like Movie, flight for which, currently we don’t have a test environment set up. You can use live credential for testing these services. However, be careful while calling the payment API since it issues the tickets for real. Also, make sure you book flights/hotels with dates far ahead of the current date to prevent booking congestion in real time. </p>
-<p><strong>5) Why is it that the status of my transaction is in ‘Processing’ state for so long ?</strong><br />
-    It could be because of the long processing time taken from the service provider. If the status doesn’t change for a long time, you can try refreshing the transaction manually from the portal given to you. If however the issue still persists, you can call our support for details.</p>
-<p><strong>6) How to generate the UAT token ?</strong> </p>
-<p><a href="https://app.tango.us/app/workflow/Steps-for-staging-TEST--service-account-Login-and-Token-Setup-928be4ac17e94caeb37d02c7e576cf4d"><strong>Link - Steps for staging(TEST) service account Login and Token Setup</strong></a></p>
-<h2 id="error-codes"><strong>Error Codes</strong><a class="headerlink" href="#error-codes" title="Permanent link">&para;</a></h2>
-<h1 id="error-codes-and-messages">Error Codes and Messages<a class="headerlink" href="#error-codes-and-messages" title="Permanent link">&para;</a></h1>
+  <h1>Search</h1>
+
+<h2 id="tbo-air-search-api">TBO Air Search API<a class="headerlink" href="#tbo-air-search-api" title="Permanent link">&para;</a></h2>
+<p>This search API allows you to search for flights for different journey types: One-Way, Round Trip or Multi-City</p>
+<h3 id="request-details">Request Details<a class="headerlink" href="#request-details" title="Permanent link">&para;</a></h3>
+<p>URL: {{base_url}}/api/servicegroup/search/tbo-air/</p>
+<p>Method: POST</p>
+<p>Headers: <code>'Content-Type': 'application/json'</code></p>
+<h3 id="example-payload"><strong>Example Payload</strong><a class="headerlink" href="#example-payload" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="p">{</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">    </span><span class="nt">&quot;token&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;top_secret_token&quot;</span><span class="p">,</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="nt">&quot;reference&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;351158c0-563c-447b-84c2-35952a58cfab&quot;</span><span class="p">,</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="nt">&quot;journey_type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;O&quot;</span><span class="p">,</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">    </span><span class="nt">&quot;point_of_sale&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;IN&quot;</span><span class="p">,</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">    </span><span class="nt">&quot;request_origin&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;India&quot;</span><span class="p">,</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">    </span><span class="nt">&quot;segments&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="w">        </span><span class="p">{</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="w">            </span><span class="nt">&quot;origin&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;DXB&quot;</span><span class="p">,</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="w">            </span><span class="nt">&quot;destination&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;BAH&quot;</span><span class="p">,</span>
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="w">            </span><span class="nt">&quot;preferred_departure_date&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2025-04-29T00:00:00&quot;</span><span class="p">,</span>
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="w">            </span><span class="nt">&quot;preferred_arrival_date&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2025-04-29T00:00:00&quot;</span>
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="w">        </span><span class="p">}</span>
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="w">    </span><span class="p">],</span>
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="w">    </span><span class="nt">&quot;adult_count&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span>
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="w">    </span><span class="nt">&quot;child_count&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="w">    </span><span class="nt">&quot;infant_count&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
+<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="w">    </span><span class="nt">&quot;flight_cabin_class&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;AC&quot;</span>
+<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a><span class="p">}</span>
+</code></pre></div>
+<hr />
+<h3 id="payload-description"><strong>Payload Description</strong><a class="headerlink" href="#payload-description" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
 <tr>
-<th>Error Code</th>
-<th>Message</th>
+<th><strong>Field</strong></th>
+<th><strong>Validation</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>1001</td>
-<td>Token not provided</td>
+<td><code>reference</code></td>
+<td>Must be unique.</td>
 </tr>
 <tr>
-<td>1002</td>
-<td>Invalid token</td>
+<td><code>point_of_sale</code></td>
+<td>Defaults to <code>"IN"</code> if not provided.</td>
 </tr>
 <tr>
-<td>1003</td>
-<td>Deleted token is provided</td>
+<td><code>request_origin</code></td>
+<td>Defaults to <code>"India"</code> if not provided.</td>
 </tr>
 <tr>
-<td>1004</td>
-<td>Inactive token is provided</td>
+<td><code>adult_count</code></td>
+<td>Must be an integer.</td>
 </tr>
 <tr>
-<td>1005</td>
-<td>Account associated with token is deleted</td>
+<td><code>child_count</code></td>
+<td>Must be an integer.</td>
 </tr>
 <tr>
-<td>1006</td>
-<td>Account associated with the token is inactive</td>
+<td><code>infant_count</code></td>
+<td>Must be an integer.</td>
 </tr>
 <tr>
-<td>1007</td>
-<td>Account has expired</td>
+<td><code>adult_count</code> &amp; <code>child_count</code></td>
+<td>At least one must be greater than zero.</td>
 </tr>
 <tr>
-<td>1008</td>
-<td>Problem using the service</td>
+<td><code>journey_type</code></td>
+<td>Required and must match one of the valid choices (Reference <a href="#valid-journey_type-values">table below</a>).</td>
 </tr>
 <tr>
-<td>1009</td>
-<td>Account doesn't have the permission</td>
+<td><code>segments[]</code></td>
+<td>Must be a <strong>non-empty array</strong> of flight segments (Reference <a href="#structure-of-each-segment-in-segments-array">table below</a>).</td>
 </tr>
 <tr>
-<td>1010</td>
-<td>Validation error</td>
-</tr>
-<tr>
-<td>1011</td>
-<td>Validation error</td>
-</tr>
-<tr>
-<td>1012</td>
-<td>Reference id not provided</td>
-</tr>
-<tr>
-<td>1013</td>
-<td>Request with duplicate reference id obtained</td>
-</tr>
-<tr>
-<td>1014</td>
-<td>Parse error</td>
-</tr>
-<tr>
-<td>1015</td>
-<td>Parse error</td>
-</tr>
-<tr>
-<td>1016</td>
-<td>Insufficient user credits</td>
-</tr>
-<tr>
-<td>1017</td>
-<td>Server error</td>
-</tr>
-<tr>
-<td>1018</td>
-<td>Error while using service</td>
-</tr>
-<tr>
-<td>1019</td>
-<td>Service in maintenance mode</td>
-</tr>
-<tr>
-<td>1020</td>
-<td>ERC for the amount could not be obtained</td>
-</tr>
-<tr>
-<td>1021</td>
-<td>Error from Provider</td>
-</tr>
-<tr>
-<td>4000</td>
-<td>Can’t fulfill request</td>
+<td><code>flight_cabin_class</code></td>
+<td>Defaults to <code>AC</code> (All class). (Reference <a href="#flight-cabin-class-choices">table below</a>)</td>
 </tr>
 </tbody>
 </table>
-<p><strong><em>Response from api</em></strong></p>
-<h3 id="how-the-error-code-and-message-will-be-shown"><strong><em>How the Error Code and Message Will be Shown</em></strong><a class="headerlink" href="#how-the-error-code-and-message-will-be-shown" title="Permanent link">&para;</a></h3>
-<p>If your API responds with an error code, it will be accompanied by a message that provides more context about the issue. Here’s how it could be presented:</p>
-<pre><code class="json">
-{
-    "error_code": "1002",
-    "message": "Invalid token"
-}
-</code></pre>
+<h4 id="valid-journey_type-values"><strong>Valid <code>journey_type</code> Values</strong><a class="headerlink" href="#valid-journey_type-values" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th><strong>Value</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>"O"</code></td>
+<td>One Way</td>
+</tr>
+<tr>
+<td><code>"R"</code></td>
+<td>Return</td>
+</tr>
+<tr>
+<td><code>"M"</code></td>
+<td>Multi City</td>
+</tr>
+</tbody>
+</table>
+<h4 id="structure-of-each-segment-in-segments-array"><strong>Structure of Each Segment in <code>segments</code> Array</strong><a class="headerlink" href="#structure-of-each-segment-in-segments-array" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th><strong>Segment Field</strong></th>
+<th><strong>Validation</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>origin</code></td>
+<td>Required, must be a valid sector code.</td>
+</tr>
+<tr>
+<td><code>destination</code></td>
+<td>Required, must be a valid sector code.</td>
+</tr>
+<tr>
+<td><code>preferred_departure_date</code></td>
+<td>Required, must be in a valid date format (<code>YYYY-MM-DD</code>).</td>
+</tr>
+<tr>
+<td><code>preferred_arrival_date</code></td>
+<td>Optional, must be in a valid date format (<code>YYYY-MM-DD</code>).</td>
+</tr>
+<tr>
+<td><code>preferred_airlines</code></td>
+<td>Optional list of airline codes (no validation implemented).</td>
+</tr>
+</tbody>
+</table>
+<h4 id="flight-cabin-class-choices"><strong>Flight Cabin Class Choices</strong><a class="headerlink" href="#flight-cabin-class-choices" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th><strong>Value</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>"AC"</code></td>
+<td>All Class</td>
+</tr>
+<tr>
+<td><code>"EC"</code></td>
+<td>Economy</td>
+</tr>
+<tr>
+<td><code>"PE"</code></td>
+<td>Premium Economy</td>
+</tr>
+<tr>
+<td><code>"BC"</code></td>
+<td>Business</td>
+</tr>
+<tr>
+<td><code>"PB"</code></td>
+<td>Premium Business</td>
+</tr>
+<tr>
+<td><code>"FC"</code></td>
+<td>First</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="example-error-responses">Example Error Responses<a class="headerlink" href="#example-error-responses" title="Permanent link">&para;</a></h3>
+<h4 id="validation-error">Validation Error<a class="headerlink" href="#validation-error" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="p">{</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">    </span><span class="nt">&quot;status&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">    </span><span class="nt">&quot;error_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1011&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">    </span><span class="nt">&quot;message&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Validation error&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">    </span><span class="nt">&quot;error&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;validation_error&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">    </span><span class="nt">&quot;details&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">    </span><span class="nt">&quot;error_data&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="w">        </span><span class="nt">&quot;journey_type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Invalid choice for journey_type. Options: [&#39;O&#39;, &#39;R&#39;, &#39;M&#39;]&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="w">        </span><span class="nt">&quot;segments&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="w">            </span><span class="p">{</span>
+<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="w">                </span><span class="nt">&quot;destination&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Sector Not found&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="w">                </span><span class="nt">&quot;preferred_arrival_date&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Invalid date format for: 08-22-10. Accepted formats: [YYYY-MM-DD, YYYY-MM-DDTHH:MM:SS]&quot;</span>
+<a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a><span class="w">            </span><span class="p">}</span>
+<a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a><span class="w">        </span><span class="p">],</span>
+<a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a><span class="w">        </span><span class="nt">&quot;flight_cabin_class&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Invalid choice for flight_cabin_class. Options: [&#39;AC&#39;, &#39;EC&#39;, &#39;PE&#39;, &#39;BC&#39;, &#39;PB&#39;, &#39;FC&#39;]&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a><span class="w">        </span><span class="nt">&quot;non_field_errors&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a><span class="w">            </span><span class="s2">&quot;At least one adult or child is required.&quot;</span>
+<a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a><span class="w">        </span><span class="p">]</span>
+<a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a><span class="w">    </span><span class="p">},</span>
+<a id="__codelineno-1-20" name="__codelineno-1-20" href="#__codelineno-1-20"></a><span class="w">    </span><span class="nt">&quot;state&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Error&quot;</span>
+<a id="__codelineno-1-21" name="__codelineno-1-21" href="#__codelineno-1-21"></a><span class="p">}</span>
+</code></pre></div>
+<h4 id="duplicate-referemce">Duplicate Referemce<a class="headerlink" href="#duplicate-referemce" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="p">{</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">    </span><span class="nt">&quot;status&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">    </span><span class="nt">&quot;error_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1013&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">    </span><span class="nt">&quot;message&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Request with duplicate reference id obtained&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">    </span><span class="nt">&quot;error&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;duplicate_request&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="w">    </span><span class="nt">&quot;details&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="w">    </span><span class="nt">&quot;error_data&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{},</span>
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="w">    </span><span class="nt">&quot;state&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Error&quot;</span>
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="p">}</span>
+</code></pre></div>
+<h3 id="success-response">Success Response<a class="headerlink" href="#success-response" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="p">{</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">    </span><span class="nt">&quot;status&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">    </span><span class="nt">&quot;session_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">48</span><span class="p">,</span>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="w">    </span><span class="nt">&quot;data&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="w">        </span><span class="p">{</span>
+<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="w">            </span><span class="nt">&quot;flight_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;51636620-9313-42df-8ee9-8290cf4661ad&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="w">            </span><span class="nt">&quot;origin&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;DXB&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="w">            </span><span class="nt">&quot;destination&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;BAH&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a><span class="w">            </span><span class="nt">&quot;is_lcc&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
+<a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a><span class="w">            </span><span class="nt">&quot;non_refundable&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
+<a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a><span class="w">            </span><span class="nt">&quot;airline_remark&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a><span class="w">            </span><span class="nt">&quot;fare&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a><span class="w">                </span><span class="nt">&quot;total_fare&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">535.6364904144</span><span class="p">,</span>
+<a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a><span class="w">                </span><span class="nt">&quot;fare_type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;RP&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-15" name="__codelineno-3-15" href="#__codelineno-3-15"></a><span class="w">                </span><span class="nt">&quot;agent_markup&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="p">,</span>
+<a id="__codelineno-3-16" name="__codelineno-3-16" href="#__codelineno-3-16"></a><span class="w">                </span><span class="nt">&quot;other_charges&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="p">,</span>
+<a id="__codelineno-3-17" name="__codelineno-3-17" href="#__codelineno-3-17"></a><span class="w">                </span><span class="nt">&quot;credit_card_charge&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="p">,</span>
+<a id="__codelineno-3-18" name="__codelineno-3-18" href="#__codelineno-3-18"></a><span class="w">                </span><span class="nt">&quot;agent_preferred_currency&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;USD&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-19" name="__codelineno-3-19" href="#__codelineno-3-19"></a><span class="w">                </span><span class="nt">&quot;service_fee&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="p">,</span>
+<a id="__codelineno-3-20" name="__codelineno-3-20" href="#__codelineno-3-20"></a><span class="w">                </span><span class="nt">&quot;base_fare&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">360.356358672</span><span class="p">,</span>
+<a id="__codelineno-3-21" name="__codelineno-3-21" href="#__codelineno-3-21"></a><span class="w">                </span><span class="nt">&quot;tax&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">175.2801317424</span><span class="p">,</span>
+<a id="__codelineno-3-22" name="__codelineno-3-22" href="#__codelineno-3-22"></a><span class="w">                </span><span class="nt">&quot;penalty_amount&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="p">,</span>
+<a id="__codelineno-3-23" name="__codelineno-3-23" href="#__codelineno-3-23"></a><span class="w">                </span><span class="nt">&quot;vat_amount&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="p">,</span>
+<a id="__codelineno-3-24" name="__codelineno-3-24" href="#__codelineno-3-24"></a><span class="w">                </span><span class="nt">&quot;vat_percentage&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span>
+<a id="__codelineno-3-25" name="__codelineno-3-25" href="#__codelineno-3-25"></a><span class="w">            </span><span class="p">},</span>
+<a id="__codelineno-3-26" name="__codelineno-3-26" href="#__codelineno-3-26"></a><span class="w">            </span><span class="nt">&quot;fare_breakdown&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<a id="__codelineno-3-27" name="__codelineno-3-27" href="#__codelineno-3-27"></a><span class="w">                </span><span class="p">{</span>
+<a id="__codelineno-3-28" name="__codelineno-3-28" href="#__codelineno-3-28"></a><span class="w">                    </span><span class="nt">&quot;currency&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;USD&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-29" name="__codelineno-3-29" href="#__codelineno-3-29"></a><span class="w">                    </span><span class="nt">&quot;passenger_type&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+<a id="__codelineno-3-30" name="__codelineno-3-30" href="#__codelineno-3-30"></a><span class="w">                    </span><span class="nt">&quot;passenger_count&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span>
+<a id="__codelineno-3-31" name="__codelineno-3-31" href="#__codelineno-3-31"></a><span class="w">                    </span><span class="nt">&quot;total_fare&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">535.6364904144</span><span class="p">,</span>
+<a id="__codelineno-3-32" name="__codelineno-3-32" href="#__codelineno-3-32"></a><span class="w">                    </span><span class="nt">&quot;other_charges&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="p">,</span>
+<a id="__codelineno-3-33" name="__codelineno-3-33" href="#__codelineno-3-33"></a><span class="w">                    </span><span class="nt">&quot;agent_markup&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="p">,</span>
+<a id="__codelineno-3-34" name="__codelineno-3-34" href="#__codelineno-3-34"></a><span class="w">                    </span><span class="nt">&quot;service_fee&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="p">,</span>
+<a id="__codelineno-3-35" name="__codelineno-3-35" href="#__codelineno-3-35"></a><span class="w">                    </span><span class="nt">&quot;base_fare&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">360.356358672</span><span class="p">,</span>
+<a id="__codelineno-3-36" name="__codelineno-3-36" href="#__codelineno-3-36"></a><span class="w">                    </span><span class="nt">&quot;tax&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">175.2801317424</span><span class="p">,</span>
+<a id="__codelineno-3-37" name="__codelineno-3-37" href="#__codelineno-3-37"></a><span class="w">                    </span><span class="nt">&quot;penalty_amount&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="p">,</span>
+<a id="__codelineno-3-38" name="__codelineno-3-38" href="#__codelineno-3-38"></a><span class="w">                    </span><span class="nt">&quot;credit_card_charge&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="p">,</span>
+<a id="__codelineno-3-39" name="__codelineno-3-39" href="#__codelineno-3-39"></a><span class="w">                    </span><span class="nt">&quot;tax_breakup_list&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<a id="__codelineno-3-40" name="__codelineno-3-40" href="#__codelineno-3-40"></a><span class="w">                        </span><span class="p">{</span>
+<a id="__codelineno-3-41" name="__codelineno-3-41" href="#__codelineno-3-41"></a><span class="w">                            </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Taxes &amp; Fees&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-42" name="__codelineno-3-42" href="#__codelineno-3-42"></a><span class="w">                            </span><span class="nt">&quot;amount&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">175.2801317424</span>
+<a id="__codelineno-3-43" name="__codelineno-3-43" href="#__codelineno-3-43"></a><span class="w">                        </span><span class="p">}</span>
+<a id="__codelineno-3-44" name="__codelineno-3-44" href="#__codelineno-3-44"></a><span class="w">                    </span><span class="p">],</span>
+<a id="__codelineno-3-45" name="__codelineno-3-45" href="#__codelineno-3-45"></a><span class="w">                    </span><span class="nt">&quot;vat_amount&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="p">,</span>
+<a id="__codelineno-3-46" name="__codelineno-3-46" href="#__codelineno-3-46"></a><span class="w">                    </span><span class="nt">&quot;vat_percentage&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span>
+<a id="__codelineno-3-47" name="__codelineno-3-47" href="#__codelineno-3-47"></a><span class="w">                </span><span class="p">}</span>
+<a id="__codelineno-3-48" name="__codelineno-3-48" href="#__codelineno-3-48"></a><span class="w">            </span><span class="p">],</span>
+<a id="__codelineno-3-49" name="__codelineno-3-49" href="#__codelineno-3-49"></a><span class="w">            </span><span class="nt">&quot;last_ticket_date&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;29APR25&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-50" name="__codelineno-3-50" href="#__codelineno-3-50"></a><span class="w">            </span><span class="nt">&quot;ticket_advisory&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;PENALTY APPLIES \nLAST TKT DTE 29APR25  - DATE OF ORIGIN \n&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-51" name="__codelineno-3-51" href="#__codelineno-3-51"></a><span class="w">            </span><span class="nt">&quot;segments&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<a id="__codelineno-3-52" name="__codelineno-3-52" href="#__codelineno-3-52"></a><span class="w">                </span><span class="p">{</span>
+<a id="__codelineno-3-53" name="__codelineno-3-53" href="#__codelineno-3-53"></a><span class="w">                    </span><span class="nt">&quot;segment_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
+<a id="__codelineno-3-54" name="__codelineno-3-54" href="#__codelineno-3-54"></a><span class="w">                    </span><span class="nt">&quot;seats_available&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">9</span><span class="p">,</span>
+<a id="__codelineno-3-55" name="__codelineno-3-55" href="#__codelineno-3-55"></a><span class="w">                    </span><span class="nt">&quot;alliance_info&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-56" name="__codelineno-3-56" href="#__codelineno-3-56"></a><span class="w">                    </span><span class="nt">&quot;flight_info_index&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span>
+<a id="__codelineno-3-57" name="__codelineno-3-57" href="#__codelineno-3-57"></a><span class="w">                    </span><span class="nt">&quot;operating_carrier&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;FZ&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-58" name="__codelineno-3-58" href="#__codelineno-3-58"></a><span class="w">                    </span><span class="nt">&quot;segment_indicator&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+<a id="__codelineno-3-59" name="__codelineno-3-59" href="#__codelineno-3-59"></a><span class="w">                    </span><span class="nt">&quot;airline&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;FZ&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-60" name="__codelineno-3-60" href="#__codelineno-3-60"></a><span class="w">                    </span><span class="nt">&quot;origin&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-3-61" name="__codelineno-3-61" href="#__codelineno-3-61"></a><span class="w">                        </span><span class="nt">&quot;airport_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;DXB&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-62" name="__codelineno-3-62" href="#__codelineno-3-62"></a><span class="w">                        </span><span class="nt">&quot;airport_name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Dubai&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-63" name="__codelineno-3-63" href="#__codelineno-3-63"></a><span class="w">                        </span><span class="nt">&quot;city_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;DXB&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-64" name="__codelineno-3-64" href="#__codelineno-3-64"></a><span class="w">                        </span><span class="nt">&quot;city_name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Dubai&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-65" name="__codelineno-3-65" href="#__codelineno-3-65"></a><span class="w">                        </span><span class="nt">&quot;country_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;AE&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-66" name="__codelineno-3-66" href="#__codelineno-3-66"></a><span class="w">                        </span><span class="nt">&quot;country_name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;United Arab Emirates&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-67" name="__codelineno-3-67" href="#__codelineno-3-67"></a><span class="w">                        </span><span class="nt">&quot;terminal&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2&quot;</span>
+<a id="__codelineno-3-68" name="__codelineno-3-68" href="#__codelineno-3-68"></a><span class="w">                    </span><span class="p">},</span>
+<a id="__codelineno-3-69" name="__codelineno-3-69" href="#__codelineno-3-69"></a><span class="w">                    </span><span class="nt">&quot;destination&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-3-70" name="__codelineno-3-70" href="#__codelineno-3-70"></a><span class="w">                        </span><span class="nt">&quot;airport_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;BAH&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-71" name="__codelineno-3-71" href="#__codelineno-3-71"></a><span class="w">                        </span><span class="nt">&quot;airport_name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Bahrain Int&#39;l&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-72" name="__codelineno-3-72" href="#__codelineno-3-72"></a><span class="w">                        </span><span class="nt">&quot;city_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;BAH&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-73" name="__codelineno-3-73" href="#__codelineno-3-73"></a><span class="w">                        </span><span class="nt">&quot;city_name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Bahrain&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-74" name="__codelineno-3-74" href="#__codelineno-3-74"></a><span class="w">                        </span><span class="nt">&quot;country_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;BH&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-75" name="__codelineno-3-75" href="#__codelineno-3-75"></a><span class="w">                        </span><span class="nt">&quot;country_name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Bahrain&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-76" name="__codelineno-3-76" href="#__codelineno-3-76"></a><span class="w">                        </span><span class="nt">&quot;terminal&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;&quot;</span>
+<a id="__codelineno-3-77" name="__codelineno-3-77" href="#__codelineno-3-77"></a><span class="w">                    </span><span class="p">},</span>
+<a id="__codelineno-3-78" name="__codelineno-3-78" href="#__codelineno-3-78"></a><span class="w">                    </span><span class="nt">&quot;flight_number&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;29&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-79" name="__codelineno-3-79" href="#__codelineno-3-79"></a><span class="w">                    </span><span class="nt">&quot;departure_time&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2025-04-29T00:25:00&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-80" name="__codelineno-3-80" href="#__codelineno-3-80"></a><span class="w">                    </span><span class="nt">&quot;arrival_time&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2025-04-29T00:40:00&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-81" name="__codelineno-3-81" href="#__codelineno-3-81"></a><span class="w">                    </span><span class="nt">&quot;booking_class&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;K&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-82" name="__codelineno-3-82" href="#__codelineno-3-82"></a><span class="w">                    </span><span class="nt">&quot;availability&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span>
+<a id="__codelineno-3-83" name="__codelineno-3-83" href="#__codelineno-3-83"></a><span class="w">                    </span><span class="nt">&quot;flight_status&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
+<a id="__codelineno-3-84" name="__codelineno-3-84" href="#__codelineno-3-84"></a><span class="w">                    </span><span class="nt">&quot;status&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span>
+<a id="__codelineno-3-85" name="__codelineno-3-85" href="#__codelineno-3-85"></a><span class="w">                    </span><span class="nt">&quot;meal_type&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span>
+<a id="__codelineno-3-86" name="__codelineno-3-86" href="#__codelineno-3-86"></a><span class="w">                    </span><span class="nt">&quot;eticket_eligible&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
+<a id="__codelineno-3-87" name="__codelineno-3-87" href="#__codelineno-3-87"></a><span class="w">                    </span><span class="nt">&quot;airline_pnr&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span>
+<a id="__codelineno-3-88" name="__codelineno-3-88" href="#__codelineno-3-88"></a><span class="w">                    </span><span class="nt">&quot;craft&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;7M8&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-89" name="__codelineno-3-89" href="#__codelineno-3-89"></a><span class="w">                    </span><span class="nt">&quot;stopover&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
+<a id="__codelineno-3-90" name="__codelineno-3-90" href="#__codelineno-3-90"></a><span class="w">                    </span><span class="nt">&quot;stops&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
+<a id="__codelineno-3-91" name="__codelineno-3-91" href="#__codelineno-3-91"></a><span class="w">                    </span><span class="nt">&quot;mile&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
+<a id="__codelineno-3-92" name="__codelineno-3-92" href="#__codelineno-3-92"></a><span class="w">                    </span><span class="nt">&quot;duration&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;01:15:00&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-93" name="__codelineno-3-93" href="#__codelineno-3-93"></a><span class="w">                    </span><span class="nt">&quot;ground_time&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;00:00:00&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-94" name="__codelineno-3-94" href="#__codelineno-3-94"></a><span class="w">                    </span><span class="nt">&quot;accumulated_duration&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;01:15:00&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-95" name="__codelineno-3-95" href="#__codelineno-3-95"></a><span class="w">                    </span><span class="nt">&quot;stop_point&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span>
+<a id="__codelineno-3-96" name="__codelineno-3-96" href="#__codelineno-3-96"></a><span class="w">                    </span><span class="nt">&quot;stop_point_arrival_time&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;0001-01-01T00:00:00&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-97" name="__codelineno-3-97" href="#__codelineno-3-97"></a><span class="w">                    </span><span class="nt">&quot;stop_point_departure_time&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;0001-01-01T00:00:00&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-98" name="__codelineno-3-98" href="#__codelineno-3-98"></a><span class="w">                    </span><span class="nt">&quot;included_baggage&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;20 KG&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-99" name="__codelineno-3-99" href="#__codelineno-3-99"></a><span class="w">                    </span><span class="nt">&quot;cabin_baggage&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Included&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-100" name="__codelineno-3-100" href="#__codelineno-3-100"></a><span class="w">                    </span><span class="nt">&quot;cabin_class&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Economy&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-101" name="__codelineno-3-101" href="#__codelineno-3-101"></a><span class="w">                    </span><span class="nt">&quot;additional_baggage&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span>
+<a id="__codelineno-3-102" name="__codelineno-3-102" href="#__codelineno-3-102"></a><span class="w">                    </span><span class="nt">&quot;airline_details&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-3-103" name="__codelineno-3-103" href="#__codelineno-3-103"></a><span class="w">                        </span><span class="nt">&quot;airline_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;FZ&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-104" name="__codelineno-3-104" href="#__codelineno-3-104"></a><span class="w">                        </span><span class="nt">&quot;flight_number&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;29&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-105" name="__codelineno-3-105" href="#__codelineno-3-105"></a><span class="w">                        </span><span class="nt">&quot;craft&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;7M8&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-106" name="__codelineno-3-106" href="#__codelineno-3-106"></a><span class="w">                        </span><span class="nt">&quot;airline_name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Fly Dubai&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-107" name="__codelineno-3-107" href="#__codelineno-3-107"></a><span class="w">                        </span><span class="nt">&quot;operating_carrier&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;FZ&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-108" name="__codelineno-3-108" href="#__codelineno-3-108"></a><span class="w">                        </span><span class="nt">&quot;alliance_info&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;&quot;</span>
+<a id="__codelineno-3-109" name="__codelineno-3-109" href="#__codelineno-3-109"></a><span class="w">                    </span><span class="p">},</span>
+<a id="__codelineno-3-110" name="__codelineno-3-110" href="#__codelineno-3-110"></a><span class="w">                    </span><span class="nt">&quot;airline_name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Fly Dubai&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-111" name="__codelineno-3-111" href="#__codelineno-3-111"></a><span class="w">                    </span><span class="nt">&quot;departure_datetime&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span>
+<a id="__codelineno-3-112" name="__codelineno-3-112" href="#__codelineno-3-112"></a><span class="w">                    </span><span class="nt">&quot;departure_date&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span>
+<a id="__codelineno-3-113" name="__codelineno-3-113" href="#__codelineno-3-113"></a><span class="w">                    </span><span class="nt">&quot;arrival_datetime&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span>
+<a id="__codelineno-3-114" name="__codelineno-3-114" href="#__codelineno-3-114"></a><span class="w">                    </span><span class="nt">&quot;arrival_date&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span>
+<a id="__codelineno-3-115" name="__codelineno-3-115" href="#__codelineno-3-115"></a><span class="w">                    </span><span class="nt">&quot;layover_text&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span>
+<a id="__codelineno-3-116" name="__codelineno-3-116" href="#__codelineno-3-116"></a><span class="w">                    </span><span class="nt">&quot;in_flight_services&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span>
+<a id="__codelineno-3-117" name="__codelineno-3-117" href="#__codelineno-3-117"></a><span class="w">                    </span><span class="nt">&quot;fare_family_class&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;&quot;</span>
+<a id="__codelineno-3-118" name="__codelineno-3-118" href="#__codelineno-3-118"></a><span class="w">                </span><span class="p">}</span>
+<a id="__codelineno-3-119" name="__codelineno-3-119" href="#__codelineno-3-119"></a><span class="w">            </span><span class="p">],</span>
+<a id="__codelineno-3-120" name="__codelineno-3-120" href="#__codelineno-3-120"></a><span class="w">            </span><span class="nt">&quot;fare_rules&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<a id="__codelineno-3-121" name="__codelineno-3-121" href="#__codelineno-3-121"></a><span class="w">                </span><span class="p">{</span>
+<a id="__codelineno-3-122" name="__codelineno-3-122" href="#__codelineno-3-122"></a><span class="w">                    </span><span class="nt">&quot;origin&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;DXB&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-123" name="__codelineno-3-123" href="#__codelineno-3-123"></a><span class="w">                    </span><span class="nt">&quot;destination&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;BAH&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-124" name="__codelineno-3-124" href="#__codelineno-3-124"></a><span class="w">                    </span><span class="nt">&quot;airline&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;FZ&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-125" name="__codelineno-3-125" href="#__codelineno-3-125"></a><span class="w">                    </span><span class="nt">&quot;fare_restriction&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Y&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-126" name="__codelineno-3-126" href="#__codelineno-3-126"></a><span class="w">                    </span><span class="nt">&quot;fare_basis_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;KOB7AE1&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-127" name="__codelineno-3-127" href="#__codelineno-3-127"></a><span class="w">                    </span><span class="nt">&quot;fare_family_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span>
+<a id="__codelineno-3-128" name="__codelineno-3-128" href="#__codelineno-3-128"></a><span class="w">                    </span><span class="nt">&quot;fare_rule_detail&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span>
+<a id="__codelineno-3-129" name="__codelineno-3-129" href="#__codelineno-3-129"></a><span class="w">                    </span><span class="nt">&quot;fare_rule_index&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span>
+<a id="__codelineno-3-130" name="__codelineno-3-130" href="#__codelineno-3-130"></a><span class="w">                    </span><span class="nt">&quot;departure_date&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;0001-01-01T00:00:00&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-131" name="__codelineno-3-131" href="#__codelineno-3-131"></a><span class="w">                    </span><span class="nt">&quot;flight_number&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span>
+<a id="__codelineno-3-132" name="__codelineno-3-132" href="#__codelineno-3-132"></a><span class="w">                    </span><span class="nt">&quot;free_text_fare_rule_detail&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span>
+<a id="__codelineno-3-133" name="__codelineno-3-133" href="#__codelineno-3-133"></a><span class="w">                </span><span class="p">}</span>
+<a id="__codelineno-3-134" name="__codelineno-3-134" href="#__codelineno-3-134"></a><span class="w">            </span><span class="p">],</span>
+<a id="__codelineno-3-135" name="__codelineno-3-135" href="#__codelineno-3-135"></a><span class="w">            </span><span class="nt">&quot;provider_remarks&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-136" name="__codelineno-3-136" href="#__codelineno-3-136"></a><span class="w">            </span><span class="nt">&quot;validating_airline&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;FZ&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-137" name="__codelineno-3-137" href="#__codelineno-3-137"></a><span class="w">            </span><span class="nt">&quot;trip_indicator&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;outbound&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-138" name="__codelineno-3-138" href="#__codelineno-3-138"></a><span class="w">            </span><span class="nt">&quot;response_time&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2025-03-08T05:25:14&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-139" name="__codelineno-3-139" href="#__codelineno-3-139"></a><span class="w">            </span><span class="nt">&quot;journey_type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;O&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-140" name="__codelineno-3-140" href="#__codelineno-3-140"></a><span class="w">            </span><span class="nt">&quot;is_void_allowed&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
+<a id="__codelineno-3-141" name="__codelineno-3-141" href="#__codelineno-3-141"></a><span class="w">            </span><span class="nt">&quot;is_refund_allowed&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
+<a id="__codelineno-3-142" name="__codelineno-3-142" href="#__codelineno-3-142"></a><span class="w">            </span><span class="nt">&quot;is_reissue_allowed&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
+<a id="__codelineno-3-143" name="__codelineno-3-143" href="#__codelineno-3-143"></a><span class="w">            </span><span class="nt">&quot;corporate_code_detail&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span>
+<a id="__codelineno-3-144" name="__codelineno-3-144" href="#__codelineno-3-144"></a><span class="w">            </span><span class="nt">&quot;is_show_upsell_option&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
+<a id="__codelineno-3-145" name="__codelineno-3-145" href="#__codelineno-3-145"></a><span class="w">            </span><span class="nt">&quot;upsell_options_list&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span>
+<a id="__codelineno-3-146" name="__codelineno-3-146" href="#__codelineno-3-146"></a><span class="w">            </span><span class="nt">&quot;is_check_in_baggage_fare&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
+<a id="__codelineno-3-147" name="__codelineno-3-147" href="#__codelineno-3-147"></a><span class="w">            </span><span class="nt">&quot;required_field_validators&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span>
+<a id="__codelineno-3-148" name="__codelineno-3-148" href="#__codelineno-3-148"></a><span class="w">            </span><span class="nt">&quot;mini_fare_rules&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span>
+<a id="__codelineno-3-149" name="__codelineno-3-149" href="#__codelineno-3-149"></a><span class="w">            </span><span class="nt">&quot;is_vat_applicable&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
+<a id="__codelineno-3-150" name="__codelineno-3-150" href="#__codelineno-3-150"></a><span class="w">            </span><span class="nt">&quot;fare_classification&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span>
+<a id="__codelineno-3-151" name="__codelineno-3-151" href="#__codelineno-3-151"></a><span class="w">        </span><span class="p">}</span>
+<a id="__codelineno-3-152" name="__codelineno-3-152" href="#__codelineno-3-152"></a><span class="w">    </span><span class="p">]</span>
+<a id="__codelineno-3-153" name="__codelineno-3-153" href="#__codelineno-3-153"></a><span class="p">}</span>
+</code></pre></div>
 
 
 
