@@ -12,7 +12,7 @@ We provide REST API for consumption of services. Our single API serves all the s
 
 
 ## Live Environment
-- **URL:** [https://services.labmdapayments.com](https://services.lambdapayments.com)
+- **URL:** [https://services.lambdapayments.com](https://services.lambdapayments.com)
 
 ## Test Environment
 - **URL:** [https://service-plabs-dev.lambdapayments.com](service-plabs-dev.lambdapayments.com)
