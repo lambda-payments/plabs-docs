@@ -1,21 +1,29 @@
-site_name: PPTNet Documentation
+site_name: PLabs Documentation
 nav:
   - Introduction: index.md
-  - Service Status Check: 
+
+  - Service Status Check:
       - State List: servicescodes/statecode.md
       - DLR: servicescodes/dlr.md
       - Service Balance Check: servicescodes/balance_check.md
       - Service LookUp API: servicescodes/lookup.md
       - Bulk Service Lookup: servicescodes/bulkservice.md
+
   - Telecom:
         - Atom: telecom/atom.md
+
   - Data Packs:
       - Atom DataPacks: datapacks/atom.md
 
   - Gift Cards: giftcards/giftcards.md
-      
+
   - Insurance: insurance/ggi-general-insurance.md
-  
+
+  - TBO Air:
+      - Search: tbo-air/search.md
+      - Book: tbo-air/book.md
+      - AddInfo: tbo-air/add-info.md
+
   - FAQ's: servicescodes/faq.md
 
 
@@ -30,7 +38,7 @@ extra_css:
   - style/custom.css
   - style/extra.css
 
-docs_dir: content 
+docs_dir: content
 site_dir: docs
 edit_uri: "edit/main/content/"
 copyright: "Copyright &copy; 2025 PPTNet"
