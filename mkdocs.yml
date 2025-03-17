@@ -22,7 +22,9 @@ nav:
   - TBO Air:
       - Search: tbo-air/search.md
       - Book: tbo-air/book.md
-      - AddInfo: tbo-air/add-info.md
+      - AddInfo: tbo-air/add_info.md
+      - Issue: tbo-air/issue.md
+      - Get Ticket Details: get_ticket_details.md
 
   - FAQ's: servicescodes/faq.md
 
