@@ -26,6 +26,12 @@ nav:
       - Issue: tbo-air/issue.md
       - Get Ticket Details: get_ticket_details.md
 
+  - TBO Hotels:
+      - Search: tbo-hotels/search.md
+      - PreBook: tbo-hotels/pre-book.md
+      - Issue: tbo-hotels/issue.md
+      - Get Ticket Details: tbo-hotels/get-ticket-details.md
+
   - FAQ's: servicescodes/faq.md
 
 

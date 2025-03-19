@@ -4,7 +4,7 @@ This search API allows you to search for flights for different journey types: On
 
 ### Request Details
 
-URL: {{base_url}}/api/servicegroup/search/tbo-air/
+URL: {{base_url}}/api/servicegroup/search/tbo-hotels/
 
 Method: POST
 
