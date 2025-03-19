@@ -55,3 +55,99 @@ Headers: `'Content-Type': 'application/json'`
 | `children_ages`   | List (Array)      | A list of ages of the children in the room (if any).      |
 
 ---
+
+### Responses
+
+#### Error Response
+```json
+{
+    "status": false,
+    "error_code": "1011",
+    "message": "Validation error",
+    "error": "validation_error",
+    "details": "",
+    "error_data": {
+        "country": "Nationality Not found"
+    },
+    "state": "Error"
+}
+```
+
+#### Success Response
+```json
+{
+    "status": true,
+    "session_id": 61,
+    "data": [
+        {
+            "hotel_code": "1492068",
+            "currency": "USD",
+            "rooms": [
+                {
+                    "name": [
+                        "Standard Apartment, 1 Bedroom,1 Queen Bed,NonSmoking"
+                    ],
+                    "booking_code": "1492068!TB!1!TB!3100151a-2517-4160-9947-f12580777094",
+                    "inclusion": "Room Only",
+                    "day_rates": [
+                        [
+                            {
+                                "base_price": 476.61
+                            },
+                            {
+                                "base_price": 377.14
+                            },
+                            {
+                                "base_price": 360.57
+                            },
+                            {
+                                "base_price": 426.88
+                            },
+                            {
+                                "base_price": 335.7
+                            },
+                            {
+                                "base_price": 377.14
+                            },
+                            {
+                                "base_price": 476.61
+                            }
+                        ]
+                    ],
+                    "total_fare": 12351.86,
+                    "total_tax": 534.98,
+                    "room_promotion": [
+                        "Book now and save"
+                    ],
+                    "cancel_policies": [
+                        {
+                            "from_date": "18-03-2025 00:00:00",
+                            "charge_type": "Percentage",
+                            "cancellation_charge": 100
+                        }
+                    ],
+                    "meal_type": "Room_Only",
+                    "is_refundable": false,
+                    "with_transfers": false,
+                    "commission": 0
+                }
+            ],
+            "name": "",
+            "city": "",
+            "rating": "",
+            "address": "",
+            "attractions": [],
+            "country_name": "",
+            "description": "",
+            "trip_advisor_rating": "",
+            "trip_advisor_review_url": "",
+            "fax_number": "",
+            "facilities": [],
+            "map_lat_long": "",
+            "phone_number": "",
+            "pin_code": "",
+            "website_url": ""
+        }
+    ]
+}
+```
