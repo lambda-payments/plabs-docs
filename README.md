@@ -1,8 +1,5 @@
+# Lambda Services API document
 
-# PPTNet Services API document
-
-This repository contains the source files for the official documentation of PPTNet Services API.
-
-See [docs.pptnet.com](http://docs.pptnet.com) for the hosted version of this documentation.
+This repository contains the source files for the official documentation of Lambda Services API.
 
 Please feel free to create an issue if you have any question.
