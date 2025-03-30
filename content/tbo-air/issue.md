@@ -4,9 +4,9 @@ This API allows you to issue ticket, and this is responsible for the amount dedu
 
 ### Request Details
 
-URL: {{base_url}}/api/servicegroup/issue/tbo-air/
+URL: `{{base_url}}/api/servicegroup/issue/tbo-air/`
 
-Method: POST
+Method: `POST`
 
 Headers: `'Content-Type': 'application/json'`
 

@@ -4,9 +4,9 @@ The **Service Status Lookup API** allows you to check the status of a transactio
 
 ### **Endpoint**
 
-**URL:** [{{base_url}}/api/service/status/]
+**URL:** `{{base_url}}/api/service/status/`
 
-**METHOD:** GET
+**METHOD:** `GET`
 
 ### **Request Parameters**
 
@@ -45,7 +45,7 @@ When the transaction is successful, you will receive a response with the followi
 </code></pre>
 
 **Fields:**
- 
+
 - **state**: The state of the transaction (`Success`).
 - **original_status**: The original status of the transaction (`Success`).
 - **details**: A description of the transaction status, e.g., `"Successful recharge"`.
@@ -82,7 +82,7 @@ When the transaction fails, the response will look like this:
 </code></pre>
 
 **Fields:**
- 
+
 - **state**: The state of the transaction (`Failed`).
 - **original_status**: The original status of the transaction (`Error`).
 - **details**: A description of the failure, e.g., `"rtii"`.
@@ -114,7 +114,7 @@ If the reference ID is not valid, you will receive:
 
 **Fields:**
 
-- **status**: Indicates whether the API call was successful (`false`).  
+- **status**: Indicates whether the API call was successful (`false`).
 - **error_code**: A code representing the error (`002`).
 - **message**: A message explaining the error.
 - **error**: The type of error (`invalid_reference`).
@@ -139,7 +139,7 @@ If the transaction exists but has failed, the response will be:
 
 **Fields:**
 
- 
+
 - **state**: The state of the transaction (`Failed`).
 - **details**: A description of the failure, e.g., `"Manually Failed"`.
 - **reference**: The reference ID of the transaction.
