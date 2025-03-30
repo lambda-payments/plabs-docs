@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../balance_check/">
+        <link rel="prev" href="../search/">
       
       
-        <link rel="next" href="../bulkservice/">
+        <link rel="next" href="../issue/">
       
       
       <link rel="icon" href="../../img/favicon.ico">
@@ -20,7 +20,7 @@
     
     
       
-        <title>Service LookUp API - Lambda Documentation</title>
+        <title>PreBook - Lambda Documentation</title>
       
     
     
@@ -71,7 +71,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#service-status-lookup-api" class="md-skip">
+        <a href="#tbo-air-search-api" class="md-skip">
           Skip to content
         </a>
       
@@ -943,7 +943,7 @@ z"/>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Service LookUp API
+              PreBook
             
           </span>
         </div>
@@ -1885,19 +1885,17 @@ z"/>
       
   
   
-    
-  
   
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
             
@@ -1910,7 +1908,7 @@ z"/>
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Service Status Check
@@ -1923,7 +1921,7 @@ z"/>
   
   
     <li class="md-nav__item">
-      <a href="../statecode/" class="md-nav__link">
+      <a href="../../servicescodes/statecode/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1943,7 +1941,7 @@ z"/>
   
   
     <li class="md-nav__item">
-      <a href="../dlr/" class="md-nav__link">
+      <a href="../../servicescodes/dlr/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1963,7 +1961,7 @@ z"/>
   
   
     <li class="md-nav__item">
-      <a href="../balance_check/" class="md-nav__link">
+      <a href="../../servicescodes/balance_check/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1981,29 +1979,9 @@ z"/>
                 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Service LookUp API
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../servicescodes/lookup/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2012,88 +1990,6 @@ z"/>
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#endpoint" class="md-nav__link">
-    Endpoint
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#request-parameters" class="md-nav__link">
-    Request Parameters
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#responses" class="md-nav__link">
-    Responses
-  </a>
-  
-    <nav class="md-nav" aria-label="Responses">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#success-response" class="md-nav__link">
-    Success Response
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#failed-response" class="md-nav__link">
-    Failed Response
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#failure-response-structure-no-such-transaction-at-our-end" class="md-nav__link">
-    Failure Response Structure (No such Transaction at our end)
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#failure-response-structure-transaction-exists-but-failure" class="md-nav__link">
-    Failure Response Structure (Transaction Exists but Failure)
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#note" class="md-nav__link">
-    NOTE
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -2105,7 +2001,7 @@ z"/>
   
   
     <li class="md-nav__item">
-      <a href="../bulkservice/" class="md-nav__link">
+      <a href="../../servicescodes/bulkservice/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2291,17 +2187,19 @@ z"/>
       
   
   
+    
+  
   
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
             
@@ -2314,7 +2212,7 @@ z"/>
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             TBO Hotels
@@ -2327,7 +2225,7 @@ z"/>
   
   
     <li class="md-nav__item">
-      <a href="../../tbo-hotels/search/" class="md-nav__link">
+      <a href="../search/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2345,9 +2243,27 @@ z"/>
                 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../tbo-hotels/pre-book/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    PreBook
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -2356,6 +2272,85 @@ z"/>
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tbo-air-search-api" class="md-nav__link">
+    TBO Air Search API
+  </a>
+  
+    <nav class="md-nav" aria-label="TBO Air Search API">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#request-details" class="md-nav__link">
+    Request Details
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-payload" class="md-nav__link">
+    Example Payload
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#payload-description" class="md-nav__link">
+    Payload Description
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#responses" class="md-nav__link">
+    Responses
+  </a>
+  
+    <nav class="md-nav" aria-label="Responses">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#error-response" class="md-nav__link">
+    Error Response
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#success-response" class="md-nav__link">
+    Success Response
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -2367,7 +2362,7 @@ z"/>
   
   
     <li class="md-nav__item">
-      <a href="../../tbo-hotels/issue/" class="md-nav__link">
+      <a href="../issue/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2387,7 +2382,7 @@ z"/>
   
   
     <li class="md-nav__item">
-      <a href="../../tbo-hotels/get-ticket-details/" class="md-nav__link">
+      <a href="../get-ticket-details/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2407,7 +2402,7 @@ z"/>
   
   
     <li class="md-nav__item">
-      <a href="../../tbo-hotels/options/" class="md-nav__link">
+      <a href="../options/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2434,7 +2429,7 @@ z"/>
   
   
     <li class="md-nav__item">
-      <a href="../faq/" class="md-nav__link">
+      <a href="../../servicescodes/faq/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2464,8 +2459,6 @@ z"/>
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -2474,20 +2467,35 @@ z"/>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#endpoint" class="md-nav__link">
-    Endpoint
+  <a href="#tbo-air-search-api" class="md-nav__link">
+    TBO Air Search API
+  </a>
+  
+    <nav class="md-nav" aria-label="TBO Air Search API">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#request-details" class="md-nav__link">
+    Request Details
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#request-parameters" class="md-nav__link">
-    Request Parameters
+        
+          <li class="md-nav__item">
+  <a href="#example-payload" class="md-nav__link">
+    Example Payload
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
+  <a href="#payload-description" class="md-nav__link">
+    Payload Description
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#responses" class="md-nav__link">
     Responses
   </a>
@@ -2496,29 +2504,15 @@ z"/>
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#error-response" class="md-nav__link">
+    Error Response
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#success-response" class="md-nav__link">
     Success Response
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#failed-response" class="md-nav__link">
-    Failed Response
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#failure-response-structure-no-such-transaction-at-our-end" class="md-nav__link">
-    Failure Response Structure (No such Transaction at our end)
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#failure-response-structure-transaction-exists-but-failure" class="md-nav__link">
-    Failure Response Structure (Transaction Exists but Failure)
   </a>
   
 </li>
@@ -2527,11 +2521,9 @@ z"/>
     </nav>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#note" class="md-nav__link">
-    NOTE
-  </a>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -2553,140 +2545,189 @@ z"/>
   
 
 
-<h1 id="service-status-lookup-api"><strong>SERVICE STATUS LOOKUP API</strong><a class="headerlink" href="#service-status-lookup-api" title="Permanent link">&para;</a></h1>
-<p>The <strong>Service Status Lookup API</strong> allows you to check the status of a transaction by providing a reference ID and token. This API is useful for tracking the state of a transaction to determine if it was successful, failed, or if there was an error.</p>
-<h3 id="endpoint"><strong>Endpoint</strong><a class="headerlink" href="#endpoint" title="Permanent link">&para;</a></h3>
-<p><strong>URL:</strong> <code>{{base_url}}/api/service/status/</code></p>
-<p><strong>METHOD:</strong> <code>GET</code></p>
-<h3 id="request-parameters"><strong>Request Parameters</strong><a class="headerlink" href="#request-parameters" title="Permanent link">&para;</a></h3>
-<p>The request requires the following parameters:</p>
-<ul>
-<li><strong>token</strong>: The token provided for authorization.</li>
-<li><strong>reference</strong>: The unique reference ID of the transaction for which the status needs to be checked.</li>
-</ul>
-<p><strong>Example Request:</strong></p>
-<pre><code class="json">
-{
-    "token": "ProvidedToken",
-    "reference": "reference id against which status is to be checked"
-}
-</code></pre>
+  <h1>PreBook</h1>
 
-<h3 id="responses"><strong>Responses</strong><a class="headerlink" href="#responses" title="Permanent link">&para;</a></h3>
-<h4 id="success-response"><strong>Success Response</strong><a class="headerlink" href="#success-response" title="Permanent link">&para;</a></h4>
-<p>When the transaction is successful, you will receive a response with the following structure:</p>
-<pre><code class="json">
-{
-    "status": true,
-    "state": "Success",
-    "original_status": "Success",
-    "details": "Successful recharge",
-    "reference": "pp123",
-    "response_id": 123647,
-    "amount": 10.0,
-    "refunded": false,
-    "refunded_amount": 0.0,
-    "refunds": []
-}
-</code></pre>
-
-<p><strong>Fields:</strong></p>
-<ul>
-<li><strong>state</strong>: The state of the transaction (<code>Success</code>).</li>
-<li><strong>original_status</strong>: The original status of the transaction (<code>Success</code>).</li>
-<li><strong>details</strong>: A description of the transaction status, e.g., <code>"Successful recharge"</code>.</li>
-<li><strong>reference</strong>: The reference ID of the transaction.</li>
-<li><strong>response_id</strong>: The unique ID associated with the response.</li>
-<li><strong>amount</strong>: The amount involved in the transaction.</li>
-<li><strong>refunded</strong>: Indicates if the amount was refunded (<code>false</code>).</li>
-<li><strong>refunded_amount</strong>: The amount that was refunded.</li>
-<li><strong>refunds</strong>: An array of refund objects, which is empty if no refunds occurred.</li>
-</ul>
-<h4 id="failed-response"><strong>Failed Response</strong><a class="headerlink" href="#failed-response" title="Permanent link">&para;</a></h4>
-<p>When the transaction fails, the response will look like this:</p>
-<pre><code class="json">
-{
-    "status": true,
-    "state": "Failed",
-    "original_status": "Error",
-    "details": "rtii",
-    "reference": "pp234",
-    "response_id": 123611,
-    "amount": 100.0,
-    "refunded": false,
-    "refunded_amount": 0.0,
-    "refunds": [
-        {
-            "created_at": "2024-07-15",
-            "remarks": "rtii",
-            "amount": 100.0
-        }
-    ]
-}
-</code></pre>
-
-<p><strong>Fields:</strong></p>
-<ul>
-<li><strong>state</strong>: The state of the transaction (<code>Failed</code>).</li>
-<li><strong>original_status</strong>: The original status of the transaction (<code>Error</code>).</li>
-<li><strong>details</strong>: A description of the failure, e.g., <code>"rtii"</code>.</li>
-<li><strong>reference</strong>: The reference ID of the transaction.</li>
-<li><strong>response_id</strong>: The unique ID associated with the response.</li>
-<li><strong>amount</strong>: The amount involved in the transaction.</li>
-<li><strong>refunded</strong>: Indicates if the amount was refunded (<code>false</code>).</li>
-<li><strong>refunded_amount</strong>: The amount that was refunded.</li>
-<li><strong>refunds</strong>: An array of refund objects, each containing:</li>
-<li><strong>created_at</strong>: The date when the refund was created.</li>
-<li><strong>remarks</strong>: Comments about the refund.</li>
-<li><strong>amount</strong>: The amount of the refund.</li>
-</ul>
-<h4 id="failure-response-structure-no-such-transaction-at-our-end"><strong>Failure Response Structure (No such Transaction at our end)</strong><a class="headerlink" href="#failure-response-structure-no-such-transaction-at-our-end" title="Permanent link">&para;</a></h4>
-<p>If the reference ID is not valid, you will receive:</p>
-<pre><code class="json">
-{
-    "status": false,
-    "error_code": "002",
-    "message": "The reference sent is not a valid reference.",
-    "error": "invalid_reference",
-    "details": "",
-    "error_data": {},
-    "state": "Error"
-}
-</code></pre>
-
-<p><strong>Fields:</strong></p>
-<ul>
-<li><strong>status</strong>: Indicates whether the API call was successful (<code>false</code>).</li>
-<li><strong>error_code</strong>: A code representing the error (<code>002</code>).</li>
-<li><strong>message</strong>: A message explaining the error.</li>
-<li><strong>error</strong>: The type of error (<code>invalid_reference</code>).</li>
-<li><strong>details</strong>: Additional details about the error.</li>
-<li><strong>error_data</strong>: An object containing additional error data.</li>
-<li><strong>state</strong>: The state of the response (<code>Error</code>).</li>
-</ul>
-<h4 id="failure-response-structure-transaction-exists-but-failure"><strong>Failure Response Structure (Transaction Exists but Failure)</strong><a class="headerlink" href="#failure-response-structure-transaction-exists-but-failure" title="Permanent link">&para;</a></h4>
-<p>If the transaction exists but has failed, the response will be:</p>
-<pre><code class="json">
-{
-    "status": true,
-    "state": "Failed",
-    "details": "Manually Failed",
-    "reference": "Reference_092233",
-    "response_id": 10631926,
-    "amount": 1.0
-}
-</code></pre>
-
-<p><strong>Fields:</strong></p>
-<ul>
-<li><strong>state</strong>: The state of the transaction (<code>Failed</code>).</li>
-<li><strong>details</strong>: A description of the failure, e.g., <code>"Manually Failed"</code>.</li>
-<li><strong>reference</strong>: The reference ID of the transaction.</li>
-<li><strong>response_id</strong>: The unique ID associated with the response.</li>
-<li><strong>amount</strong>: The amount involved in the transaction.</li>
-</ul>
-<h3 id="note"><strong>NOTE</strong><a class="headerlink" href="#note" title="Permanent link">&para;</a></h3>
-<p>Please refer to the <code>state</code> field in the response to determine the success or failure of the transaction, not the <code>status</code> field.</p>
+<h2 id="tbo-air-search-api">TBO Air Search API<a class="headerlink" href="#tbo-air-search-api" title="Permanent link">&para;</a></h2>
+<p>This search API allows you to search for flights for different journey types: One-Way, Round Trip or Multi-City</p>
+<h3 id="request-details">Request Details<a class="headerlink" href="#request-details" title="Permanent link">&para;</a></h3>
+<p>URL: <code>{{base_url}}/api/servicegroup/prebook/tbo-hotels/</code></p>
+<p>Method: <code>POST</code></p>
+<p>Headers: <code>'Content-Type': 'application/json'</code></p>
+<h3 id="example-payload"><strong>Example Payload</strong><a class="headerlink" href="#example-payload" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="p">{</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">    </span><span class="nt">&quot;token&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;{{token}}&quot;</span><span class="p">,</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="nt">&quot;session_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{{</span><span class="err">sessio</span><span class="kc">n</span><span class="err">_id</span><span class="p">}},</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="nt">&quot;booking_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;{{booking_code}}&quot;</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="p">}</span>
+</code></pre></div>
+<hr />
+<h3 id="payload-description">Payload Description<a class="headerlink" href="#payload-description" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Key</strong></th>
+<th><strong>Data Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>token</code></td>
+<td>String</td>
+<td>The authentication token.</td>
+</tr>
+<tr>
+<td><code>session_id</code></td>
+<td>Integer</td>
+<td>Session ID from search.</td>
+</tr>
+<tr>
+<td><code>booking_code</code></td>
+<td>String</td>
+<td>Booking code for the room. (From search response)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="responses">Responses<a class="headerlink" href="#responses" title="Permanent link">&para;</a></h3>
+<h4 id="error-response">Error Response<a class="headerlink" href="#error-response" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="p">{</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">    </span><span class="nt">&quot;status&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">    </span><span class="nt">&quot;error_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1011&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">    </span><span class="nt">&quot;message&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Validation error&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">    </span><span class="nt">&quot;error&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;validation_error&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">    </span><span class="nt">&quot;details&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">    </span><span class="nt">&quot;error_data&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="w">        </span><span class="nt">&quot;session_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Value for the field is invalid.&quot;</span>
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="w">    </span><span class="p">},</span>
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="w">    </span><span class="nt">&quot;state&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Error&quot;</span>
+<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="p">}</span>
+</code></pre></div>
+<h4 id="success-response">Success Response<a class="headerlink" href="#success-response" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="p">{</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">    </span><span class="nt">&quot;status&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">    </span><span class="nt">&quot;session_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">61</span><span class="p">,</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">    </span><span class="nt">&quot;data&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">        </span><span class="p">{</span>
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="w">            </span><span class="nt">&quot;hotel_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1492068&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="w">            </span><span class="nt">&quot;currency&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;USD&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="w">            </span><span class="nt">&quot;rooms&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="w">                </span><span class="p">{</span>
+<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="w">                    </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="w">                        </span><span class="s2">&quot;Standard Apartment, 1 Bedroom,1 Queen Bed,NonSmoking&quot;</span>
+<a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a><span class="w">                    </span><span class="p">],</span>
+<a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a><span class="w">                    </span><span class="nt">&quot;booking_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1492068!TB!1!TB!3100151a-2517-4160-9947-f12580777094&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a><span class="w">                    </span><span class="nt">&quot;inclusion&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Room Only&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a><span class="w">                    </span><span class="nt">&quot;day_rates&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<a id="__codelineno-2-16" name="__codelineno-2-16" href="#__codelineno-2-16"></a><span class="w">                        </span><span class="p">[</span>
+<a id="__codelineno-2-17" name="__codelineno-2-17" href="#__codelineno-2-17"></a><span class="w">                            </span><span class="p">{</span>
+<a id="__codelineno-2-18" name="__codelineno-2-18" href="#__codelineno-2-18"></a><span class="w">                                </span><span class="nt">&quot;base_price&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">476.61</span>
+<a id="__codelineno-2-19" name="__codelineno-2-19" href="#__codelineno-2-19"></a><span class="w">                            </span><span class="p">},</span>
+<a id="__codelineno-2-20" name="__codelineno-2-20" href="#__codelineno-2-20"></a><span class="w">                            </span><span class="p">{</span>
+<a id="__codelineno-2-21" name="__codelineno-2-21" href="#__codelineno-2-21"></a><span class="w">                                </span><span class="nt">&quot;base_price&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">377.14</span>
+<a id="__codelineno-2-22" name="__codelineno-2-22" href="#__codelineno-2-22"></a><span class="w">                            </span><span class="p">},</span>
+<a id="__codelineno-2-23" name="__codelineno-2-23" href="#__codelineno-2-23"></a><span class="w">                            </span><span class="p">{</span>
+<a id="__codelineno-2-24" name="__codelineno-2-24" href="#__codelineno-2-24"></a><span class="w">                                </span><span class="nt">&quot;base_price&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">360.57</span>
+<a id="__codelineno-2-25" name="__codelineno-2-25" href="#__codelineno-2-25"></a><span class="w">                            </span><span class="p">},</span>
+<a id="__codelineno-2-26" name="__codelineno-2-26" href="#__codelineno-2-26"></a><span class="w">                            </span><span class="p">{</span>
+<a id="__codelineno-2-27" name="__codelineno-2-27" href="#__codelineno-2-27"></a><span class="w">                                </span><span class="nt">&quot;base_price&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">426.88</span>
+<a id="__codelineno-2-28" name="__codelineno-2-28" href="#__codelineno-2-28"></a><span class="w">                            </span><span class="p">},</span>
+<a id="__codelineno-2-29" name="__codelineno-2-29" href="#__codelineno-2-29"></a><span class="w">                            </span><span class="p">{</span>
+<a id="__codelineno-2-30" name="__codelineno-2-30" href="#__codelineno-2-30"></a><span class="w">                                </span><span class="nt">&quot;base_price&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">335.7</span>
+<a id="__codelineno-2-31" name="__codelineno-2-31" href="#__codelineno-2-31"></a><span class="w">                            </span><span class="p">},</span>
+<a id="__codelineno-2-32" name="__codelineno-2-32" href="#__codelineno-2-32"></a><span class="w">                            </span><span class="p">{</span>
+<a id="__codelineno-2-33" name="__codelineno-2-33" href="#__codelineno-2-33"></a><span class="w">                                </span><span class="nt">&quot;base_price&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">377.14</span>
+<a id="__codelineno-2-34" name="__codelineno-2-34" href="#__codelineno-2-34"></a><span class="w">                            </span><span class="p">},</span>
+<a id="__codelineno-2-35" name="__codelineno-2-35" href="#__codelineno-2-35"></a><span class="w">                            </span><span class="p">{</span>
+<a id="__codelineno-2-36" name="__codelineno-2-36" href="#__codelineno-2-36"></a><span class="w">                                </span><span class="nt">&quot;base_price&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">476.61</span>
+<a id="__codelineno-2-37" name="__codelineno-2-37" href="#__codelineno-2-37"></a><span class="w">                            </span><span class="p">}</span>
+<a id="__codelineno-2-38" name="__codelineno-2-38" href="#__codelineno-2-38"></a><span class="w">                        </span><span class="p">]</span>
+<a id="__codelineno-2-39" name="__codelineno-2-39" href="#__codelineno-2-39"></a><span class="w">                    </span><span class="p">],</span>
+<a id="__codelineno-2-40" name="__codelineno-2-40" href="#__codelineno-2-40"></a><span class="w">                    </span><span class="nt">&quot;total_fare&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">3365.63</span><span class="p">,</span>
+<a id="__codelineno-2-41" name="__codelineno-2-41" href="#__codelineno-2-41"></a><span class="w">                    </span><span class="nt">&quot;total_tax&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">534.98</span><span class="p">,</span>
+<a id="__codelineno-2-42" name="__codelineno-2-42" href="#__codelineno-2-42"></a><span class="w">                    </span><span class="nt">&quot;room_promotion&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<a id="__codelineno-2-43" name="__codelineno-2-43" href="#__codelineno-2-43"></a><span class="w">                        </span><span class="s2">&quot;Book now and save&quot;</span>
+<a id="__codelineno-2-44" name="__codelineno-2-44" href="#__codelineno-2-44"></a><span class="w">                    </span><span class="p">],</span>
+<a id="__codelineno-2-45" name="__codelineno-2-45" href="#__codelineno-2-45"></a><span class="w">                    </span><span class="nt">&quot;cancel_policies&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<a id="__codelineno-2-46" name="__codelineno-2-46" href="#__codelineno-2-46"></a><span class="w">                        </span><span class="p">{</span>
+<a id="__codelineno-2-47" name="__codelineno-2-47" href="#__codelineno-2-47"></a><span class="w">                            </span><span class="nt">&quot;from_date&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;18-03-2025 00:00:00&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-48" name="__codelineno-2-48" href="#__codelineno-2-48"></a><span class="w">                            </span><span class="nt">&quot;charge_type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Percentage&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-49" name="__codelineno-2-49" href="#__codelineno-2-49"></a><span class="w">                            </span><span class="nt">&quot;cancellation_charge&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span>
+<a id="__codelineno-2-50" name="__codelineno-2-50" href="#__codelineno-2-50"></a><span class="w">                        </span><span class="p">}</span>
+<a id="__codelineno-2-51" name="__codelineno-2-51" href="#__codelineno-2-51"></a><span class="w">                    </span><span class="p">],</span>
+<a id="__codelineno-2-52" name="__codelineno-2-52" href="#__codelineno-2-52"></a><span class="w">                    </span><span class="nt">&quot;meal_type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Room_Only&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-53" name="__codelineno-2-53" href="#__codelineno-2-53"></a><span class="w">                    </span><span class="nt">&quot;is_refundable&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
+<a id="__codelineno-2-54" name="__codelineno-2-54" href="#__codelineno-2-54"></a><span class="w">                    </span><span class="nt">&quot;with_transfers&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
+<a id="__codelineno-2-55" name="__codelineno-2-55" href="#__codelineno-2-55"></a><span class="w">                    </span><span class="nt">&quot;amenities&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<a id="__codelineno-2-56" name="__codelineno-2-56" href="#__codelineno-2-56"></a><span class="w">                        </span><span class="s2">&quot;Non-Smoking&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-57" name="__codelineno-2-57" href="#__codelineno-2-57"></a><span class="w">                        </span><span class="s2">&quot;Television&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-58" name="__codelineno-2-58" href="#__codelineno-2-58"></a><span class="w">                        </span><span class="s2">&quot;In-room climate control (heating)&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-59" name="__codelineno-2-59" href="#__codelineno-2-59"></a><span class="w">                        </span><span class="s2">&quot;Premium bedding&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-60" name="__codelineno-2-60" href="#__codelineno-2-60"></a><span class="w">                        </span><span class="s2">&quot;Electric kettle&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-61" name="__codelineno-2-61" href="#__codelineno-2-61"></a><span class="w">                        </span><span class="s2">&quot;Satellite TV service&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-62" name="__codelineno-2-62" href="#__codelineno-2-62"></a><span class="w">                        </span><span class="s2">&quot;Limited housekeeping&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-63" name="__codelineno-2-63" href="#__codelineno-2-63"></a><span class="w">                        </span><span class="s2">&quot;In-room climate control (air conditioning)&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-64" name="__codelineno-2-64" href="#__codelineno-2-64"></a><span class="w">                        </span><span class="s2">&quot;Separate dining area&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-65" name="__codelineno-2-65" href="#__codelineno-2-65"></a><span class="w">                        </span><span class="s2">&quot;Coffee/tea maker&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-66" name="__codelineno-2-66" href="#__codelineno-2-66"></a><span class="w">                        </span><span class="s2">&quot;Daily housekeeping&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-67" name="__codelineno-2-67" href="#__codelineno-2-67"></a><span class="w">                        </span><span class="s2">&quot;Free WiFi&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-68" name="__codelineno-2-68" href="#__codelineno-2-68"></a><span class="w">                        </span><span class="s2">&quot;Bidet&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-69" name="__codelineno-2-69" href="#__codelineno-2-69"></a><span class="w">                        </span><span class="s2">&quot;Hypo-allergenic bedding available&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-70" name="__codelineno-2-70" href="#__codelineno-2-70"></a><span class="w">                        </span><span class="s2">&quot;Phone&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-71" name="__codelineno-2-71" href="#__codelineno-2-71"></a><span class="w">                        </span><span class="s2">&quot;Desk&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-72" name="__codelineno-2-72" href="#__codelineno-2-72"></a><span class="w">                        </span><span class="s2">&quot;Designer toiletries&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-73" name="__codelineno-2-73" href="#__codelineno-2-73"></a><span class="w">                        </span><span class="s2">&quot;iPod docking station&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-74" name="__codelineno-2-74" href="#__codelineno-2-74"></a><span class="w">                        </span><span class="s2">&quot;Separate living room&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-75" name="__codelineno-2-75" href="#__codelineno-2-75"></a><span class="w">                        </span><span class="s2">&quot;Towels provided&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-76" name="__codelineno-2-76" href="#__codelineno-2-76"></a><span class="w">                        </span><span class="s2">&quot;Bedsheets provided&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-77" name="__codelineno-2-77" href="#__codelineno-2-77"></a><span class="w">                        </span><span class="s2">&quot;Connecting/adjoining rooms available&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-78" name="__codelineno-2-78" href="#__codelineno-2-78"></a><span class="w">                        </span><span class="s2">&quot;DVD player&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-79" name="__codelineno-2-79" href="#__codelineno-2-79"></a><span class="w">                        </span><span class="s2">&quot;TV size measurement: inch&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-80" name="__codelineno-2-80" href="#__codelineno-2-80"></a><span class="w">                        </span><span class="s2">&quot;Stovetop&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-81" name="__codelineno-2-81" href="#__codelineno-2-81"></a><span class="w">                        </span><span class="s2">&quot;Shower/tub combination&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-82" name="__codelineno-2-82" href="#__codelineno-2-82"></a><span class="w">                        </span><span class="s2">&quot;In-room massage available&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-83" name="__codelineno-2-83" href="#__codelineno-2-83"></a><span class="w">                        </span><span class="s2">&quot;Private bathroom&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-84" name="__codelineno-2-84" href="#__codelineno-2-84"></a><span class="w">                        </span><span class="s2">&quot;Washer/dryer&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-85" name="__codelineno-2-85" href="#__codelineno-2-85"></a><span class="w">                        </span><span class="s2">&quot;Free toiletries&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-86" name="__codelineno-2-86" href="#__codelineno-2-86"></a><span class="w">                        </span><span class="s2">&quot;Wheelchair accessible&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-87" name="__codelineno-2-87" href="#__codelineno-2-87"></a><span class="w">                        </span><span class="s2">&quot;Hair dryer&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-88" name="__codelineno-2-88" href="#__codelineno-2-88"></a><span class="w">                        </span><span class="s2">&quot;Iron/ironing board&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-89" name="__codelineno-2-89" href="#__codelineno-2-89"></a><span class="w">                        </span><span class="s2">&quot;Rollaway/extra beds (surcharge)&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-90" name="__codelineno-2-90" href="#__codelineno-2-90"></a><span class="w">                        </span><span class="s2">&quot;In-room safe&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-91" name="__codelineno-2-91" href="#__codelineno-2-91"></a><span class="w">                        </span><span class="s2">&quot;Full-sized refrigerator/freezer&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-92" name="__codelineno-2-92" href="#__codelineno-2-92"></a><span class="w">                        </span><span class="s2">&quot;Dishwasher&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-93" name="__codelineno-2-93" href="#__codelineno-2-93"></a><span class="w">                        </span><span class="s2">&quot;Kitchen&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-94" name="__codelineno-2-94" href="#__codelineno-2-94"></a><span class="w">                        </span><span class="s2">&quot;Cookware, dishware, and utensils&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-95" name="__codelineno-2-95" href="#__codelineno-2-95"></a><span class="w">                        </span><span class="s2">&quot;Separate sitting area&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-96" name="__codelineno-2-96" href="#__codelineno-2-96"></a><span class="w">                        </span><span class="s2">&quot;LCD TV&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-97" name="__codelineno-2-97" href="#__codelineno-2-97"></a><span class="w">                        </span><span class="s2">&quot;Microwave&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-98" name="__codelineno-2-98" href="#__codelineno-2-98"></a><span class="w">                        </span><span class="s2">&quot;Free bottled water&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-99" name="__codelineno-2-99" href="#__codelineno-2-99"></a><span class="w">                        </span><span class="s2">&quot;Free cribs/infant beds&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-100" name="__codelineno-2-100" href="#__codelineno-2-100"></a><span class="w">                        </span><span class="s2">&quot;Housekeeping - weekdays only&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-101" name="__codelineno-2-101" href="#__codelineno-2-101"></a><span class="w">                        </span><span class="s2">&quot;Separate bedroom&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-102" name="__codelineno-2-102" href="#__codelineno-2-102"></a><span class="w">                        </span><span class="s2">&quot;Oven&quot;</span>
+<a id="__codelineno-2-103" name="__codelineno-2-103" href="#__codelineno-2-103"></a><span class="w">                    </span><span class="p">]</span>
+<a id="__codelineno-2-104" name="__codelineno-2-104" href="#__codelineno-2-104"></a><span class="w">                </span><span class="p">}</span>
+<a id="__codelineno-2-105" name="__codelineno-2-105" href="#__codelineno-2-105"></a><span class="w">            </span><span class="p">],</span>
+<a id="__codelineno-2-106" name="__codelineno-2-106" href="#__codelineno-2-106"></a><span class="w">            </span><span class="nt">&quot;rate_conditions&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<a id="__codelineno-2-107" name="__codelineno-2-107" href="#__codelineno-2-107"></a><span class="w">                </span><span class="s2">&quot;Early check out will attract full cancellation charge unless otherwise specified.&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-108" name="__codelineno-2-108" href="#__codelineno-2-108"></a><span class="w">                </span><span class="s2">&quot;Please note that this a special rate which should be sold only with an airline ticket as part of a package.&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-109" name="__codelineno-2-109" href="#__codelineno-2-109"></a><span class="w">                </span><span class="s2">&quot;Please refer to the following Terms of Use - http://mytravelagent.online/termsofuse.pdf&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-110" name="__codelineno-2-110" href="#__codelineno-2-110"></a><span class="w">                </span><span class="s2">&quot;CheckIn Time-Begin: 3:00 PM &quot;</span><span class="p">,</span>
+<a id="__codelineno-2-111" name="__codelineno-2-111" href="#__codelineno-2-111"></a><span class="w">                </span><span class="s2">&quot; CheckIn Time-End: midnight&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-112" name="__codelineno-2-112" href="#__codelineno-2-112"></a><span class="w">                </span><span class="s2">&quot;CheckOut Time: 11:00 AM&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-113" name="__codelineno-2-113" href="#__codelineno-2-113"></a><span class="w">                </span><span class="s2">&quot;CheckIn Instructions: &amp;lt;ul&amp;gt;  &amp;lt;li&amp;gt;Extra-person charges may apply and vary depending on property policy&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Government-issued photo identification and a credit card, debit card, or cash deposit may be required at check-in for incidental charges&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Special requests are subject to availability upon check-in and may incur additional charges; special requests cannot be guaranteed&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;The name on the credit card used at check-in to pay for incidentals must be the primary name on the guestroom reservation&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;This property accepts credit cards, debit cards, and cash&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Host has not indicated whether there is a carbon monoxide detector on the property; consider bringing a portable detector with you on the trip&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Host has indicated there is a smoke detector on the property&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Safety features at this property include a fire extinguisher, a security system, a first aid kit, and window guards&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;This property is professionally cleaned&amp;lt;/li&amp;gt;  &amp;lt;/ul&amp;gt; &quot;</span><span class="p">,</span>
+<a id="__codelineno-2-114" name="__codelineno-2-114" href="#__codelineno-2-114"></a><span class="w">                </span><span class="s2">&quot; Special Instructions : Front desk staff will greet guests on arrival at the property.&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-115" name="__codelineno-2-115" href="#__codelineno-2-115"></a><span class="w">                </span><span class="s2">&quot;Minimum CheckIn Age : 18&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-116" name="__codelineno-2-116" href="#__codelineno-2-116"></a><span class="w">                </span><span class="s2">&quot;Mandatory Fees: &amp;lt;p&amp;gt;You&#39;ll be asked to pay the following charges at the property. Fees may include applicable taxes:&amp;lt;/p&amp;gt; &amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;Breakage deposit: GBP 300.00 per stay&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt; &amp;lt;p&amp;gt;We have included all charges provided to us by the property. &amp;lt;/p&amp;gt; &quot;</span><span class="p">,</span>
+<a id="__codelineno-2-117" name="__codelineno-2-117" href="#__codelineno-2-117"></a><span class="w">                </span><span class="s2">&quot; Optional Fees: &amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;Covered self parking fee: GBP 65.00 per day&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Late check-out is available for a fee (subject to availability)&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Rollaway bed fee: GBP 65.0 per night&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt; &amp;lt;p&amp;gt;The above list may not be comprehensive. Fees and deposits may not include tax and are subject to change. &amp;lt;/p&amp;gt;&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-118" name="__codelineno-2-118" href="#__codelineno-2-118"></a><span class="w">                </span><span class="s2">&quot;Cards Accepted: Visa,Debit cards,Cash,American Express,Mastercard&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-119" name="__codelineno-2-119" href="#__codelineno-2-119"></a><span class="w">                </span><span class="s2">&quot;&amp;lt;ul&amp;gt;  &amp;lt;li&amp;gt;The property has connecting/adjoining rooms, which are subject to availability and can be requested by contacting the property using the number on the booking confirmation. &amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;The property is professionally cleaned.&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Contactless check-in and contactless check-out are available.&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt;,Pets not allowed,Professional property host/manager,Contactless check-out is available,Property uses a professional cleaning service,Contactless check-in is available,Essential workers only - NO&quot;</span>
+<a id="__codelineno-2-120" name="__codelineno-2-120" href="#__codelineno-2-120"></a><span class="w">            </span><span class="p">]</span>
+<a id="__codelineno-2-121" name="__codelineno-2-121" href="#__codelineno-2-121"></a><span class="w">        </span><span class="p">}</span>
+<a id="__codelineno-2-122" name="__codelineno-2-122" href="#__codelineno-2-122"></a><span class="w">    </span><span class="p">]</span>
+<a id="__codelineno-2-123" name="__codelineno-2-123" href="#__codelineno-2-123"></a><span class="p">}</span>
+</code></pre></div>
 
 
 

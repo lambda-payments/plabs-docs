@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../balance_check/">
+        <link rel="prev" href="../get_ticket_details/">
       
       
-        <link rel="next" href="../bulkservice/">
+        <link rel="next" href="../../tbo-hotels/search/">
       
       
       <link rel="icon" href="../../img/favicon.ico">
@@ -20,7 +20,7 @@
     
     
       
-        <title>Service LookUp API - Lambda Documentation</title>
+        <title>Master Data API - Lambda Documentation</title>
       
     
     
@@ -71,7 +71,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#service-status-lookup-api" class="md-skip">
+        <a href="#tbo-air-master-data-api" class="md-skip">
           Skip to content
         </a>
       
@@ -943,7 +943,7 @@ z"/>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Service LookUp API
+              Master Data API
             
           </span>
         </div>
@@ -1885,19 +1885,17 @@ z"/>
       
   
   
-    
-  
   
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
             
@@ -1910,7 +1908,7 @@ z"/>
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Service Status Check
@@ -1923,7 +1921,7 @@ z"/>
   
   
     <li class="md-nav__item">
-      <a href="../statecode/" class="md-nav__link">
+      <a href="../../servicescodes/statecode/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1943,7 +1941,7 @@ z"/>
   
   
     <li class="md-nav__item">
-      <a href="../dlr/" class="md-nav__link">
+      <a href="../../servicescodes/dlr/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1963,7 +1961,7 @@ z"/>
   
   
     <li class="md-nav__item">
-      <a href="../balance_check/" class="md-nav__link">
+      <a href="../../servicescodes/balance_check/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1981,29 +1979,9 @@ z"/>
                 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Service LookUp API
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../servicescodes/lookup/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2012,88 +1990,6 @@ z"/>
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#endpoint" class="md-nav__link">
-    Endpoint
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#request-parameters" class="md-nav__link">
-    Request Parameters
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#responses" class="md-nav__link">
-    Responses
-  </a>
-  
-    <nav class="md-nav" aria-label="Responses">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#success-response" class="md-nav__link">
-    Success Response
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#failed-response" class="md-nav__link">
-    Failed Response
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#failure-response-structure-no-such-transaction-at-our-end" class="md-nav__link">
-    Failure Response Structure (No such Transaction at our end)
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#failure-response-structure-transaction-exists-but-failure" class="md-nav__link">
-    Failure Response Structure (Transaction Exists but Failure)
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#note" class="md-nav__link">
-    NOTE
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -2105,7 +2001,7 @@ z"/>
   
   
     <li class="md-nav__item">
-      <a href="../bulkservice/" class="md-nav__link">
+      <a href="../../servicescodes/bulkservice/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2130,17 +2026,19 @@ z"/>
       
   
   
+    
+  
   
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
             
@@ -2153,7 +2051,7 @@ z"/>
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             TBO Air
@@ -2166,7 +2064,7 @@ z"/>
   
   
     <li class="md-nav__item">
-      <a href="../../tbo-air/search/" class="md-nav__link">
+      <a href="../search/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2186,7 +2084,7 @@ z"/>
   
   
     <li class="md-nav__item">
-      <a href="../../tbo-air/book/" class="md-nav__link">
+      <a href="../book/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2206,7 +2104,7 @@ z"/>
   
   
     <li class="md-nav__item">
-      <a href="../../tbo-air/add_info/" class="md-nav__link">
+      <a href="../add_info/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2226,7 +2124,7 @@ z"/>
   
   
     <li class="md-nav__item">
-      <a href="../../tbo-air/issue/" class="md-nav__link">
+      <a href="../issue/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2246,7 +2144,7 @@ z"/>
   
   
     <li class="md-nav__item">
-      <a href="../../tbo-air/get_ticket_details/" class="md-nav__link">
+      <a href="../get_ticket_details/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2264,9 +2162,27 @@ z"/>
                 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../tbo-air/options/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Master Data API
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -2275,6 +2191,72 @@ z"/>
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tbo-air-master-data-api" class="md-nav__link">
+    TBO Air Master Data API
+  </a>
+  
+    <nav class="md-nav" aria-label="TBO Air Master Data API">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#request-details" class="md-nav__link">
+    Request Details
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-payload" class="md-nav__link">
+    Example Payload
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#payload-description" class="md-nav__link">
+    Payload Description
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-response" class="md-nav__link">
+    Error Response:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-response" class="md-nav__link">
+    Example Response
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -2434,7 +2416,7 @@ z"/>
   
   
     <li class="md-nav__item">
-      <a href="../faq/" class="md-nav__link">
+      <a href="../../servicescodes/faq/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2464,8 +2446,6 @@ z"/>
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -2474,64 +2454,50 @@ z"/>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#endpoint" class="md-nav__link">
-    Endpoint
+  <a href="#tbo-air-master-data-api" class="md-nav__link">
+    TBO Air Master Data API
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#request-parameters" class="md-nav__link">
-    Request Parameters
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#responses" class="md-nav__link">
-    Responses
-  </a>
-  
-    <nav class="md-nav" aria-label="Responses">
+    <nav class="md-nav" aria-label="TBO Air Master Data API">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#success-response" class="md-nav__link">
-    Success Response
+  <a href="#request-details" class="md-nav__link">
+    Request Details
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#failed-response" class="md-nav__link">
-    Failed Response
+  <a href="#example-payload" class="md-nav__link">
+    Example Payload
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#failure-response-structure-no-such-transaction-at-our-end" class="md-nav__link">
-    Failure Response Structure (No such Transaction at our end)
+  <a href="#payload-description" class="md-nav__link">
+    Payload Description
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#failure-response-structure-transaction-exists-but-failure" class="md-nav__link">
-    Failure Response Structure (Transaction Exists but Failure)
+  <a href="#error-response" class="md-nav__link">
+    Error Response:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-response" class="md-nav__link">
+    Example Response
   </a>
   
 </li>
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#note" class="md-nav__link">
-    NOTE
-  </a>
   
 </li>
       
@@ -2553,140 +2519,71 @@ z"/>
   
 
 
-<h1 id="service-status-lookup-api"><strong>SERVICE STATUS LOOKUP API</strong><a class="headerlink" href="#service-status-lookup-api" title="Permanent link">&para;</a></h1>
-<p>The <strong>Service Status Lookup API</strong> allows you to check the status of a transaction by providing a reference ID and token. This API is useful for tracking the state of a transaction to determine if it was successful, failed, or if there was an error.</p>
-<h3 id="endpoint"><strong>Endpoint</strong><a class="headerlink" href="#endpoint" title="Permanent link">&para;</a></h3>
-<p><strong>URL:</strong> <code>{{base_url}}/api/service/status/</code></p>
-<p><strong>METHOD:</strong> <code>GET</code></p>
-<h3 id="request-parameters"><strong>Request Parameters</strong><a class="headerlink" href="#request-parameters" title="Permanent link">&para;</a></h3>
-<p>The request requires the following parameters:</p>
-<ul>
-<li><strong>token</strong>: The token provided for authorization.</li>
-<li><strong>reference</strong>: The unique reference ID of the transaction for which the status needs to be checked.</li>
-</ul>
-<p><strong>Example Request:</strong></p>
-<pre><code class="json">
-{
-    "token": "ProvidedToken",
-    "reference": "reference id against which status is to be checked"
-}
-</code></pre>
+  <h1>Master Data API</h1>
 
-<h3 id="responses"><strong>Responses</strong><a class="headerlink" href="#responses" title="Permanent link">&para;</a></h3>
-<h4 id="success-response"><strong>Success Response</strong><a class="headerlink" href="#success-response" title="Permanent link">&para;</a></h4>
-<p>When the transaction is successful, you will receive a response with the following structure:</p>
-<pre><code class="json">
-{
-    "status": true,
-    "state": "Success",
-    "original_status": "Success",
-    "details": "Successful recharge",
-    "reference": "pp123",
-    "response_id": 123647,
-    "amount": 10.0,
-    "refunded": false,
-    "refunded_amount": 0.0,
-    "refunds": []
-}
-</code></pre>
-
-<p><strong>Fields:</strong></p>
-<ul>
-<li><strong>state</strong>: The state of the transaction (<code>Success</code>).</li>
-<li><strong>original_status</strong>: The original status of the transaction (<code>Success</code>).</li>
-<li><strong>details</strong>: A description of the transaction status, e.g., <code>"Successful recharge"</code>.</li>
-<li><strong>reference</strong>: The reference ID of the transaction.</li>
-<li><strong>response_id</strong>: The unique ID associated with the response.</li>
-<li><strong>amount</strong>: The amount involved in the transaction.</li>
-<li><strong>refunded</strong>: Indicates if the amount was refunded (<code>false</code>).</li>
-<li><strong>refunded_amount</strong>: The amount that was refunded.</li>
-<li><strong>refunds</strong>: An array of refund objects, which is empty if no refunds occurred.</li>
-</ul>
-<h4 id="failed-response"><strong>Failed Response</strong><a class="headerlink" href="#failed-response" title="Permanent link">&para;</a></h4>
-<p>When the transaction fails, the response will look like this:</p>
-<pre><code class="json">
-{
-    "status": true,
-    "state": "Failed",
-    "original_status": "Error",
-    "details": "rtii",
-    "reference": "pp234",
-    "response_id": 123611,
-    "amount": 100.0,
-    "refunded": false,
-    "refunded_amount": 0.0,
-    "refunds": [
-        {
-            "created_at": "2024-07-15",
-            "remarks": "rtii",
-            "amount": 100.0
-        }
-    ]
-}
-</code></pre>
-
-<p><strong>Fields:</strong></p>
-<ul>
-<li><strong>state</strong>: The state of the transaction (<code>Failed</code>).</li>
-<li><strong>original_status</strong>: The original status of the transaction (<code>Error</code>).</li>
-<li><strong>details</strong>: A description of the failure, e.g., <code>"rtii"</code>.</li>
-<li><strong>reference</strong>: The reference ID of the transaction.</li>
-<li><strong>response_id</strong>: The unique ID associated with the response.</li>
-<li><strong>amount</strong>: The amount involved in the transaction.</li>
-<li><strong>refunded</strong>: Indicates if the amount was refunded (<code>false</code>).</li>
-<li><strong>refunded_amount</strong>: The amount that was refunded.</li>
-<li><strong>refunds</strong>: An array of refund objects, each containing:</li>
-<li><strong>created_at</strong>: The date when the refund was created.</li>
-<li><strong>remarks</strong>: Comments about the refund.</li>
-<li><strong>amount</strong>: The amount of the refund.</li>
-</ul>
-<h4 id="failure-response-structure-no-such-transaction-at-our-end"><strong>Failure Response Structure (No such Transaction at our end)</strong><a class="headerlink" href="#failure-response-structure-no-such-transaction-at-our-end" title="Permanent link">&para;</a></h4>
-<p>If the reference ID is not valid, you will receive:</p>
-<pre><code class="json">
-{
-    "status": false,
-    "error_code": "002",
-    "message": "The reference sent is not a valid reference.",
-    "error": "invalid_reference",
-    "details": "",
-    "error_data": {},
-    "state": "Error"
-}
-</code></pre>
-
-<p><strong>Fields:</strong></p>
-<ul>
-<li><strong>status</strong>: Indicates whether the API call was successful (<code>false</code>).</li>
-<li><strong>error_code</strong>: A code representing the error (<code>002</code>).</li>
-<li><strong>message</strong>: A message explaining the error.</li>
-<li><strong>error</strong>: The type of error (<code>invalid_reference</code>).</li>
-<li><strong>details</strong>: Additional details about the error.</li>
-<li><strong>error_data</strong>: An object containing additional error data.</li>
-<li><strong>state</strong>: The state of the response (<code>Error</code>).</li>
-</ul>
-<h4 id="failure-response-structure-transaction-exists-but-failure"><strong>Failure Response Structure (Transaction Exists but Failure)</strong><a class="headerlink" href="#failure-response-structure-transaction-exists-but-failure" title="Permanent link">&para;</a></h4>
-<p>If the transaction exists but has failed, the response will be:</p>
-<pre><code class="json">
-{
-    "status": true,
-    "state": "Failed",
-    "details": "Manually Failed",
-    "reference": "Reference_092233",
-    "response_id": 10631926,
-    "amount": 1.0
-}
-</code></pre>
-
-<p><strong>Fields:</strong></p>
-<ul>
-<li><strong>state</strong>: The state of the transaction (<code>Failed</code>).</li>
-<li><strong>details</strong>: A description of the failure, e.g., <code>"Manually Failed"</code>.</li>
-<li><strong>reference</strong>: The reference ID of the transaction.</li>
-<li><strong>response_id</strong>: The unique ID associated with the response.</li>
-<li><strong>amount</strong>: The amount involved in the transaction.</li>
-</ul>
-<h3 id="note"><strong>NOTE</strong><a class="headerlink" href="#note" title="Permanent link">&para;</a></h3>
-<p>Please refer to the <code>state</code> field in the response to determine the success or failure of the transaction, not the <code>status</code> field.</p>
+<h2 id="tbo-air-master-data-api">TBO Air Master Data API<a class="headerlink" href="#tbo-air-master-data-api" title="Permanent link">&para;</a></h2>
+<p>This API provides master data for TBO Air.</p>
+<h3 id="request-details">Request Details<a class="headerlink" href="#request-details" title="Permanent link">&para;</a></h3>
+<p>URL: <code>{{base_url}}/api/servicegroup/options/tbo-air/&lt;option_type&gt;</code></p>
+<p>Option Types: One of <code>['airlines', 'cities', 'countries', 'sectors']</code></p>
+<p>Method: <code>POST</code></p>
+<p>Headers: <code>'Content-Type': 'application/json'</code></p>
+<hr />
+<h3 id="example-payload"><strong>Example Payload</strong><a class="headerlink" href="#example-payload" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="p">{</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">    </span><span class="nt">&quot;token&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;top_secret_token&quot;</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="p">}</span>
+</code></pre></div>
+<hr />
+<h3 id="payload-description"><strong>Payload Description</strong><a class="headerlink" href="#payload-description" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Field</strong></th>
+<th><strong>Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>token</code></td>
+<td>String</td>
+<td>Secure token used for authentication.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="error-response">Error Response:<a class="headerlink" href="#error-response" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="c1">// When hit request with `/api/servicegroup/options/tbo-air/error`</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="p">{</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">    </span><span class="nt">&quot;status&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">    </span><span class="nt">&quot;error_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;4000&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">    </span><span class="nt">&quot;message&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Can&#39;t fulfill request&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">    </span><span class="nt">&quot;error&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;client_error&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">    </span><span class="nt">&quot;details&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Invalid choice for option `error`. Must be one of [&#39;airlines&#39;, &#39;cities&#39;, &#39;countries&#39;, &#39;sectors&#39;]&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="w">    </span><span class="nt">&quot;error_data&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{},</span>
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="w">    </span><span class="nt">&quot;state&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Error&quot;</span>
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="p">}</span>
+</code></pre></div>
+<h3 id="example-response">Example Response<a class="headerlink" href="#example-response" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="p">{</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">    </span><span class="nt">&quot;status&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">    </span><span class="nt">&quot;data&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">        </span><span class="p">{</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">            </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Alaska Airlines Inc.&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="w">            </span><span class="nt">&quot;code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;AS&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="w">            </span><span class="nt">&quot;logo_path&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://cdnimage.blob.core.windows.net/airline-logos/AS.png&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="w">            </span><span class="nt">&quot;is_lcc&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span>
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="w">        </span><span class="p">},</span>
+<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="w">        </span><span class="p">{</span>
+<a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="w">            </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Wanair&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a><span class="w">            </span><span class="nt">&quot;code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;3W&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a><span class="w">            </span><span class="nt">&quot;logo_path&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://cdnimage.blob.core.windows.net/airline-logos/3W.gif&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a><span class="w">            </span><span class="nt">&quot;is_lcc&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span>
+<a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a><span class="w">        </span><span class="p">}</span>
+<a id="__codelineno-2-16" name="__codelineno-2-16" href="#__codelineno-2-16"></a><span class="w">    </span><span class="p">]</span>
+<a id="__codelineno-2-17" name="__codelineno-2-17" href="#__codelineno-2-17"></a><span class="p">}</span>
+</code></pre></div>
 
 
 
