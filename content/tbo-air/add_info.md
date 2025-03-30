@@ -4,9 +4,9 @@ This search API allows you to add passenger information and contact information 
 
 ### Request Details
 
-URL: {{base_url}}/api/servicegroup/addinfo/tbo-air/
+URL: `{{base_url}}/api/servicegroup/addinfo/tbo-air/`
 
-Method: POST
+Method: `POST`
 
 Headers: `'Content-Type': 'application/json'`
 

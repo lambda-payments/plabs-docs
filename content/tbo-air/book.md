@@ -4,9 +4,9 @@ This search API allows you to Select a flight to proceed further with ticket iss
 
 ### Request Details
 
-URL: {{base_url}}/api/servicegroup/book/tbo-air/
+URL: `{{base_url}}/api/servicegroup/book/tbo-air/`
 
-Method: POST
+Method: `POST`
 
 Headers: `'Content-Type': 'application/json'`
 
