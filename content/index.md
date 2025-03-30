@@ -1,9 +1,9 @@
-# **PPTNet Services Documentation**
+# **Lambda Services Documentation**
 
 
 ## *Version 1.0*
 
-## *Last Update 26 Feburary, 2026*
+## *Last Update 10 March, 2025*
 
 
 ## **Introduction**
@@ -12,11 +12,7 @@ We provide REST API for consumption of services. Our single API serves all the s
 
 
 ## Live Environment
-- **URL:** [https://services.pptnet.com](https://services.pptnet.com)
+- **URL:** [https://services.lambdapayments.com](https://services.lambdapayments.com)
 
 ## Test Environment
-- **URL:** [https://uatservices.pptnet.com](https://uatservices.pptnet.com)
-
-
-## Token Generation
-- **Generate a token:** [Token Generation Steps](https://app.tango.us/app/workflow/Steps-for-staging-TEST--service-account-Login-and-Token-Setup-928be4ac17e94caeb37d02c7e576cf4d)
+- **URL:** [https://service-plabs-dev.lambdapayments.com](service-plabs-dev.lambdapayments.com)
