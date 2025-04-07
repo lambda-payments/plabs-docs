@@ -12,9 +12,9 @@ nav:
   - TBO Air:
       - Search: tbo-air/search.md
       - Book: tbo-air/book.md
-      - AddInfo: tbo-air/add_info.md
+      - AddInfo: tbo-air/add-info.md
       - Issue: tbo-air/issue.md
-      - Get Ticket Details: tbo-air/get_ticket_details.md
+      - Get Ticket Details: tbo-air/get-ticket-details.md
       - Master Data API: tbo-air/options.md
 
   - TBO Hotels:
@@ -23,6 +23,10 @@ nav:
       - Issue: tbo-hotels/issue.md
       - Get Ticket Details: tbo-hotels/get-ticket-details.md
       - Master Data API: tbo-hotels/options.md
+
+  - YGAG:
+      - Brands: ygag/brands.md
+      - Issue (Order): ygag/issue.md
 
   - FAQ's: servicescodes/faq.md
 
