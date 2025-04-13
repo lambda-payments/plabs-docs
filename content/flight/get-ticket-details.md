@@ -1,10 +1,10 @@
-## TBO Air Get Ticket Details API
+## Flight Get Ticket Details API
 
 This API allows you to get details for the ticket, which can be used in ticket generation.
 
 ### Request Details
 
-URL: `{{base_url}}/api/servicegroup/issue/tbo-air/`
+URL: `{{local}}/api/servicegroup/get-ticket-details/flight/`
 
 Method: `POST`
 

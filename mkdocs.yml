@@ -9,20 +9,20 @@ nav:
       - Service LookUp API: servicescodes/lookup.md
       - Bulk Service Lookup: servicescodes/bulkservice.md
 
-  - TBO Air:
-      - Search: tbo-air/search.md
-      - Book: tbo-air/book.md
-      - AddInfo: tbo-air/add-info.md
-      - Issue: tbo-air/issue.md
-      - Get Ticket Details: tbo-air/get-ticket-details.md
-      - Master Data API: tbo-air/options.md
+  - Flight:
+      - Search: flight/search.md
+      - Book: flight/book.md
+      - AddInfo: flight/add-info.md
+      - Issue: flight/issue.md
+      - Get Ticket Details: flight/get-ticket-details.md
+      - Master Data API: flight/options.md
 
-  - TBO Hotels:
-      - Search: tbo-hotels/search.md
-      - PreBook: tbo-hotels/pre-book.md
-      - Issue: tbo-hotels/issue.md
-      - Get Ticket Details: tbo-hotels/get-ticket-details.md
-      - Master Data API: tbo-hotels/options.md
+  - Hotel:
+      - Search: hotel/search.md
+      - PreBook: hotel/pre-book.md
+      - Issue: hotel/issue.md
+      - Get Ticket Details: hotel/get-booking-details.md
+      - Master Data API: hotel/options.md
 
   - YGAG:
       - Brands: ygag/brands.md

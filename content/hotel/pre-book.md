@@ -1,10 +1,10 @@
-## TBO Air Search API
+## Hotel Pre-Book API
 
-This search API allows you to search for flights for different journey types: One-Way, Round Trip or Multi-City
+This search API allows you to pre-book hotels for further booking.
 
 ### Request Details
 
-URL: `{{base_url}}/api/servicegroup/prebook/tbo-hotels/`
+URL: `{{base_url}}/api/servicegroup/prebook/hotel/`
 
 Method: `POST`
 

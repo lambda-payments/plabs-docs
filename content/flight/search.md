@@ -1,10 +1,10 @@
-## TBO Air Search API
+## Flight Search API
 
 This search API allows you to search for flights for different journey types: One-Way, Round Trip or Multi-City
 
 ### Request Details
 
-URL: `{{base_url}}/api/servicegroup/search/tbo-air/`
+URL: `{{base_url}}/api/servicegroup/search/flight/`
 
 Method: `POST`
 

@@ -1,10 +1,10 @@
-## TBO Air Search API
+## Hotel Search API
 
-This search API allows you to search for flights for different journey types: One-Way, Round Trip or Multi-City
+This search API is used to search for hotels in a city.
 
 ### Request Details
 
-URL: `{{base_url}}/api/servicegroup/search/tbo-hotels/`
+URL: `{{base_url}}/api/servicegroup/search/hotel/`
 
 Method: `POST`
 

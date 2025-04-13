@@ -1,10 +1,10 @@
-## TBO Air Search API
+## Hotel Issue API
 
-This search API allows you to search for flights for different journey types: One-Way, Round Trip or Multi-City
+This API allows you to create a booking for a hotel.
 
 ### Request Details
 
-URL: `{{base_url}}/api/servicegroup/search/tbo-air/`
+URL: `{{base_url}}/api/servicegroup/issue/hotel/`
 
 Method: `POST`
 
@@ -15,16 +15,19 @@ Headers: `'Content-Type': 'application/json'`
 ```json
 {
     "token": "{{token}}",
-    "reference": "{{$guid}}",
-    "checkin_date": "2025-10-01",
-    "checkout_date": "2025-10-08",
-    "city_code": "143851",
-    "nationality": "AE",
-    "pax_rooms": [
-         {
-            "adults": 1,
-            "children": 0,
-            "children_ages": []
+    "session_id": {{session_id}},
+    "email": "test@gmail.com",
+    "phone": "9800101122",
+    "customer_details": [
+        {
+            "customer_names": [
+                {
+                    "title": "Mr",
+                    "first_name": "TestGuest",
+                    "last_name": "One",
+                    "type": "Adult"
+                }
+            ]
         }
     ]
 }

@@ -1,10 +1,10 @@
-## TBO Air Add Info API
+## Flight Add Info API
 
-This search API allows you to add passenger information and contact information for selected flight.
+This API allows you to add passenger information and contact information for selected flight.
 
 ### Request Details
 
-URL: `{{base_url}}/api/servicegroup/addinfo/tbo-air/`
+URL: `{{base_url}}/api/servicegroup/addinfo/flight/`
 
 Method: `POST`
 
