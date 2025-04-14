@@ -1,10 +1,10 @@
-## TBO Hotels Master Data API
+## Hotel Master Data API
 
 This API provides master data for TBO Hotels.
 
 ### Request Details
 
-URL: `{{base_url}}/api/servicegroup/options/tbo-hotels/<option_type>`
+URL: `{{base_url}}/api/servicegroup/options/hotel/<option_type>`
 
 Option Types: One of `['hotel-code-list', 'hotel-codes', 'hotel-city', 'hotel-country']`
 

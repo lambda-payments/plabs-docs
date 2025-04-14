@@ -1,10 +1,10 @@
-## TBO Air Issue Ticket API
+## Flight Issue Ticket API
 
 This API allows you to issue ticket, and this is responsible for the amount deduction.
 
 ### Request Details
 
-URL: `{{base_url}}/api/servicegroup/issue/tbo-air/`
+URL: `{{base_url}}/api/servicegroup/issue/flight/`
 
 Method: `POST`
 

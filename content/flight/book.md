@@ -1,10 +1,10 @@
-## TBO Air Book API
+## Flight Book API
 
-This search API allows you to Select a flight to proceed further with ticket issue.
+This API allows you to Select a flight to proceed further with ticket issue.
 
 ### Request Details
 
-URL: `{{base_url}}/api/servicegroup/book/tbo-air/`
+URL: `{{base_url}}/api/servicegroup/book/flight/`
 
 Method: `POST`
 

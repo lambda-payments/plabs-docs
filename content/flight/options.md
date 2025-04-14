@@ -1,10 +1,10 @@
-## TBO Air Master Data API
+## Flight Master Data API
 
 This API provides master data for TBO Air.
 
 ### Request Details
 
-URL: `{{base_url}}/api/servicegroup/options/tbo-air/<option_type>`
+URL: `{{base_url}}/api/servicegroup/options/flight/<option_type>`
 
 Option Types: One of `['airlines', 'cities', 'countries', 'sectors']`
 
