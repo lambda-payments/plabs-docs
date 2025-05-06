@@ -18,6 +18,8 @@ Headers: `'Content-Type': 'application/json'`
     "session_id": {{session_id}},
     "email": "test@gmail.com",
     "phone": "9800101122",
+    "customer_identifier": "customer@test.com",
+    "remarks": "Test Txn",
     "customer_details": [
         {
             "customer_names": [
@@ -39,30 +41,32 @@ Headers: `'Content-Type': 'application/json'`
 ### Payload Description
 
 
-| **Key**             | **Data Type**   | **Description**                                                         |
-|---------------------|-----------------|-------------------------------------------------------------------------|
-| `token`             | String          | The authentication token.                            |
-| `session_id`        | Integer         | A dynamically generated session ID (From Search).                                     |
-| `email`             | String          | The email address of the customer.                                      |
-| `phone`             | String          | The phone number of the customer.                                       |
-| `customer_details`  | List (Array)    | A list of customer details, which contains the customer name and type.  |
+| **Key**               | **Data Type**    | **Description**                                                        |
+| --------------------- | ---------------- | ---------------------------------------------------------------------- |
+| `token`               | String           | The authentication token.                                              |
+| `session_id`          | Integer          | A dynamically generated session ID (From Search).                      |
+| `email`               | String           | The email address of the customer.                                     |
+| `phone`               | String           | The phone number of the customer.                                      |
+| `remarks`             | Optional(String) | Transaction remarks for the booking.                                   |
+| `customer_identifier` | Optional(String) | User Identifier at the client end.                                     |
+| `customer_details`    | List (Array)     | A list of customer details, which contains the customer name and type. |
 
 ### Customer Details Description
 
-| **Key**             | **Data Type**   | **Description**                                                         |
-|---------------------|-----------------|-------------------------------------------------------------------------|
-| `customer_names`    | List (Array)    | A list of customer names with their title, first name, last name, and type. |
+| **Key**          | **Data Type** | **Description**                                                             |
+| ---------------- | ------------- | --------------------------------------------------------------------------- |
+| `customer_names` | List (Array)  | A list of customer names with their title, first name, last name, and type. |
 
 ---
 
 #### Customer Names Description
 
-| **Key**             | **Data Type**   | **Description**                                                         |
-|---------------------|-----------------|-------------------------------------------------------------------------|
-| `title`             | String          | The title of the customer (e.g., Mr, Mrs, etc.).                        |
-| `first_name`        | String          | The first name of the customer.                                         |
-| `last_name`         | String          | The last name of the customer.                                          |
-| `type`              | String          | The type of the customer (e.g., Adult, Child).                          |
+| **Key**      | **Data Type** | **Description**                                  |
+| ------------ | ------------- | ------------------------------------------------ |
+| `title`      | String        | The title of the customer (e.g., Mr, Mrs, etc.). |
+| `first_name` | String        | The first name of the customer.                  |
+| `last_name`  | String        | The last name of the customer.                   |
+| `type`       | String        | The type of the customer (e.g., Adult, Child).   |
 
 ---
 
