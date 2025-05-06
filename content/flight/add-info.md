@@ -21,6 +21,8 @@ Headers: `'Content-Type': 'application/json'`
     "contact_name": "John Doe",
     "contact_email": "johndoe@plabs.com",
     "contact_phone": "971-9876543210",
+    "customer_identifier": "customer@test.com",
+    "remarks": "Test Txn",
     "passengers": [
         {
             "title": "Mr",
@@ -53,14 +55,16 @@ Headers: `'Content-Type': 'application/json'`
 
 ### **Payload Description**
 
-| **Field**       | **Type** | **Description**                                                                    |
-| --------------- | -------- | ---------------------------------------------------------------------------------- |
-| `session_id`    | Integer  | Unique identifier for the session.                                                 |
-| `token`         | String   | Secure token used for authentication.                                              |
-| `contact_name`  | String   | Name of the contact person.                                                        |
-| `contact_email` | String   | Email address of the contact person.                                               |
-| `contact_phone` | String   | Phone number of the contact person.                                                |
-| `passengers`    | Array    | List of passengers associated with the session. ([Details Below](#passenger-data)) |
+| **Field**             | **Type**         | **Description**                                                                    |
+| --------------------- | ---------------- | ---------------------------------------------------------------------------------- |
+| `session_id`          | Integer          | Unique identifier for the session.                                                 |
+| `token`               | String           | Secure token used for authentication.                                              |
+| `contact_name`        | String           | Name of the contact person.                                                        |
+| `contact_email`       | String           | Email address of the contact person.                                               |
+| `contact_phone`       | String           | Phone number of the contact person.                                                |
+| `remarks`             | Optional(String) | Transaction remarks for the ticket.                                                 |
+| `customer_identifier` | Optional(String) | User Identifier at the client end.                                                 |
+| `passengers`          | Array            | List of passengers associated with the session. ([Details Below](#passenger-data)) |
 
 ### **Passenger Data**
 
