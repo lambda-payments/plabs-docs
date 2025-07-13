@@ -28,6 +28,9 @@ nav:
       - Brands: ygag/brands.md
       - Issue (Order): ygag/issue.md
 
+  - Offline Services:
+      - Commit: offline-services/commit.md
+
   - FAQ's: servicescodes/faq.md
 
 
